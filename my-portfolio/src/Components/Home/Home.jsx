@@ -5,6 +5,7 @@ import Brands from '../Brands';
 import Drawer from '../Shared/Drawer';
 import Navbar from '../Shared/Navbar';
 import Skills from '../Skills';
+import Qualification from '../Qualification';
 
 const Home = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -16,6 +17,7 @@ const Home = () => {
       <Brands />
       <Aboutme />
       <Skills />
+      <Qualification />
     </div>
   )
 }
