@@ -14,8 +14,8 @@ const Drawer = ({ isOpen, setIsOpen }) => {
 
         <div className='uppercase h-[75%] flex items-center justify-center font-teko font-normal text-white text-4xl leading-none'>
           <ul>
-            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link >Home</Link></li>
-            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link>About</Link></li>
+            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link to="/">Home</Link></li>
+            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link to="/About">About</Link></li>
             <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link>Skills</Link></li>
             <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link>Portfolio</Link></li>
             <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link>Contact</Link></li>

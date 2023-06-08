@@ -1,7 +1,7 @@
 import React from 'react';
 import SkillContent from './SkillContent';
-import frontend from './Data/frontend';
-import backend from './Data/backend';
+import frontend from '../Data/frontend';
+import backend from '../Data/backend';
 
 function card(content) {
   return <SkillContent key={content.id} skill={content.skill} level={content.level} />

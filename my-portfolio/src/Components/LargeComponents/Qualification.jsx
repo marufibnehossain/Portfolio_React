@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Heading from './SmallComponents/Heading';
+import Heading from '../SmallComponents/Heading';
 import { SlGraduation } from 'react-icons/sl';
 import { BiBriefcaseAlt2 } from 'react-icons/bi';
-import QualityLeft from './SmallComponents/QualityLeft';
-import QualityRight from './SmallComponents/QualityRight';
+import QualityLeft from '../SmallComponents/QualityLeft';
+import QualityRight from '../SmallComponents/QualityRight';
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);

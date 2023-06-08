@@ -1,6 +1,6 @@
 import React from 'react';
-import Heading from './SmallComponents/Heading';
-import SkillCard from './SmallComponents/SkillCard';
+import Heading from '../SmallComponents/Heading';
+import SkillCard from '../SmallComponents/SkillCard';
 
 const Skills = () => {
   return (

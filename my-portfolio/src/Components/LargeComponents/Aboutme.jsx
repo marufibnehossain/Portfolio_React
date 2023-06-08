@@ -3,7 +3,7 @@ import { FaRibbon, FaSuitcase } from 'react-icons/fa';
 import { BiSupport  } from 'react-icons/bi';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
-import Heading from './SmallComponents/Heading';
+import Heading from '../SmallComponents/Heading';
 
 const Aboutme = () => {
   return (
