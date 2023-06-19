@@ -32,3 +32,15 @@ code {
 .font-arial{
   font-family: 'Arial', sans-serif;
 }
+
+@layer components{
+  .hover-nav{
+    @apply bg-clip-text hover:bg-gradient-to-r hover:from-[#DBBA51] hover:to-[#D2AC47];
+  }
+  .gold-btn{
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-[#DBBA51] to-[#D2AC47];
+  }
+  .gold-text{
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-[#E0AA3E] to-[#E0B95A] font-semibold;
+  }
+}

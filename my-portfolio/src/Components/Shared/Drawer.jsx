@@ -10,15 +10,15 @@ const Drawer = ({ isOpen, setIsOpen }) => {
       <section className={"sm:max-w-xs w-full right-0 absolute bg-[#181818] h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform  " +
           (isOpen ? " translate-x-0 " : " translate-x-full ")}>
       
-        <div className="w-full p-5 px-4 flex justify-end"><RxCross2 className="text-white text-4xl xl:mx-9 md:mx-8 mx-5" onClick={() => {setIsOpen(false);}} /></div>
+        <div className="w-full p-5 px-4 flex justify-end"><RxCross2 className="text-[#CCA354] text-4xl xl:mx-9 md:mx-8 mx-5" onClick={() => {setIsOpen(false);}} /></div>
 
-        <div className='uppercase h-[75%] flex items-center justify-center font-teko font-normal text-white text-4xl leading-none'>
+        <div className='uppercase h-[75%] flex items-center justify-center text-[#CCA354] font-teko font-normal text-4xl leading-none'>
           <ul>
-            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link to="/">Home</Link></li>
-            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link to="/About">About</Link></li>
-            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link>Skills</Link></li>
-            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link>Portfolio</Link></li>
-            <li className='my-3 transition-opacity duration-500 hover:opacity-70'><Link>Contact</Link></li>
+            <li className='my-3 transition-all duration-500'><Link to="/">Home</Link></li>
+            <li className='my-3 transition-all duration-500'><Link to="/About">About</Link></li>
+            <li className='my-3 transition-all duration-500'><Link>Skills</Link></li>
+            <li className='my-3 transition-all duration-500'><Link>Portfolio</Link></li>
+            <li className='my-3 transition-all duration-500'><Link>Contact</Link></li>
           </ul>
         </div>
 

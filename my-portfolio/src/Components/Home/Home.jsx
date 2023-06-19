@@ -4,8 +4,6 @@ import Banner from '../LargeComponents/Banner';
 import Brands from '../LargeComponents/Brands';
 // import Drawer from '../Shared/Drawer';
 // import Navbar from '../Shared/Navbar';
-import Skills from '../LargeComponents/Skills';
-import Qualification from '../LargeComponents/Qualification';
 import Projects from '../LargeComponents/Projects';
 
 const Home = () => {
@@ -17,8 +15,6 @@ const Home = () => {
       <Banner />
       <Brands />
       <Aboutme />
-      <Skills />
-      <Qualification />
       <Projects />
     </div>
   )

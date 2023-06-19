@@ -5,7 +5,7 @@ const QualityRight = (props) => {
     <div className='flex justify-end'>
       <div className='flex flex-row-reverse justify-between md:w-[50.8%] sm:w-[50.8%] xs:w-[50.95%] mxs:w-[51.05%] 2xs:w-[51.1%] 3xs:w-[51.5%] 4xs:w-[52%]'>
         <div className='text-left text-[#d4d4d4] xs:ml-0 ml-4'>
-            <h5 className='md:text-base mxs:text-sm text-xs font-semibold leading-normal'>{props.department}</h5>
+            <h5 className='md:text-base mxs:text-sm text-xs font-semibold leading-normal text-[#cca354] text-shadow-[0px_0px_15px_rgba(204,163,84,0.4)]'>{props.department}</h5>
             <p className='md:text-sm mxs:text-xs text-[10px] leading-loose'>{props.institute}</p>
             <p className='md:text-sm mxs:text-xs text-[10px] leading-loose'>{props.duration}</p>
         </div>

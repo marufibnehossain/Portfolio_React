@@ -15,8 +15,8 @@ const Qualification = () => {
         <Heading heading= "Qualification" sub="My personal journey" />
         <div>
             <div className='flex justify-center'>
-                <div className={toggleState === 1 ? 'md:text-lg flex items-center gap-2 mx-4 cursor-pointer hover:text-gray-400 text-gray-500' : 'text-[#d4d4d4] md:text-lg flex items-center gap-2 mx-4 hover:text-gray-400 cursor-pointer'} onClick={() => toggleTab(1)}><SlGraduation className='text-xl' />Education</div>
-                <div className={toggleState === 2 ? 'md:text-lg flex items-center gap-2 mx-4 cursor-pointer hover:text-gray-400 text-gray-500' : 'text-[#d4d4d4] md:text-lg flex items-center gap-2 mx-4 hover:text-gray-400 cursor-pointer'} onClick={() => toggleTab(2)}><BiBriefcaseAlt2 className='text-xl' />Experience</div>
+                <div className={toggleState === 1 ? 'md:text-lg flex items-center gap-2 mx-4 cursor-pointer hover:text-[#cca354] text-[#cca354]' : 'text-[#d4d4d4] md:text-lg flex items-center gap-2 mx-4 hover:text-[#cca354] cursor-pointer'} onClick={() => toggleTab(1)}><SlGraduation className='text-xl' />Education</div>
+                <div className={toggleState === 2 ? 'md:text-lg flex items-center gap-2 mx-4 cursor-pointer hover:text-[#cca354] text-[#cca354]' : 'text-[#d4d4d4] md:text-lg flex items-center gap-2 mx-4 hover:text-[#cca354] cursor-pointer'} onClick={() => toggleTab(2)}><BiBriefcaseAlt2 className='text-xl' />Experience</div>
             </div>
             <div className={toggleState === 2 ? 'lg:w-[70%] md:w-[90%] w-11/12 mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] w-11/12 mx-auto my-5'}>
               <QualityLeft department="Computer Science & Engineering" institute="Port City International University - Chattogram" duration="2018 - 2022" />

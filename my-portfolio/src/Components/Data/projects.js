@@ -8,7 +8,7 @@ const project = [
         project: "DESIGNING RIVIAN'S DIGITAL BRAND EXPERIENCE",
         intro: "I've worked on all things digital but my focus now is on charging and trip planning experiences within the mobile app.",
         button: "UNDER NDA - NO CASE STUDY",
-        textclr: "",
+        textclr: "white",
         visiblewht: "inline-block",
         visibleblk: "none"
     },
