@@ -10,7 +10,8 @@ const project = [
         button: "UNDER NDA - NO CASE STUDY",
         textclr: "white",
         visiblewht: "inline-block",
-        visibleblk: "none"
+        visibleblk: "none",
+        link: "/casestudy"
     },
     {
         id: 2,
@@ -23,7 +24,8 @@ const project = [
         button: "View case study",
         textclr: "",
         visiblewht: "inline-block",
-        visibleblk: "none"
+        visibleblk: "none",
+        link: ""
     },
     {
         id: 3,
@@ -36,7 +38,8 @@ const project = [
         button: "view case study",
         textclr: "",
         visiblewht: "inline-block",
-        visibleblk: "none"
+        visibleblk: "none",
+        link: ""
     },
     {
         id: 4,
@@ -49,7 +52,8 @@ const project = [
         button: "view case study",
         textclr: "black",
         visiblewht: "none",
-        visibleblk: "inline-block"
+        visibleblk: "inline-block",
+        link: ""
     },
     {
         id: 5,
@@ -62,7 +66,8 @@ const project = [
         button: "view case study",
         textclr: "",
         visiblewht: "none",
-        visibleblk: "inline-block"
+        visibleblk: "inline-block",
+        link: ""
     }
 ]
 export default project;

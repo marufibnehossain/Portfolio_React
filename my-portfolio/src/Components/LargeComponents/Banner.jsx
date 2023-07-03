@@ -16,7 +16,7 @@ const Banner = () => {
           <FaFacebook className='hover:text-[#cca354] transition-all duration-300' />
         </div>
       </div>
-      <div className='lg:w-[520px] lg:h-[750px] md:w-[450px] sm:w-[500px] xs:w-[520px] xs:h-[777px] h-full -z-10 absolute lg:-right-10 right-0 bottom-0 overflow-hidden'>
+      <div className='lg:w-[520px] xl:h-[750px] lg:h-[720px] md:w-[450px] sm:w-[500px] xs:w-[520px] xs:h-[777px] h-full -z-10 absolute lg:bottom-4 lg:-right-10 right-0 bottom-0 overflow-hidden border border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.5)]'>
         <img className='object-cover object-center h-full w-full' src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/638c1c3665a7e49659761af2_kysondana-designer-photographer-p-800.jpg" alt="" />
       </div>
     </div>
