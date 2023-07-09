@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import About from './Components/Pages/About';
 import Nav from './Components/Shared/Nav';
 import WebProjects from './Components/Pages/WebProjects';
+import Case from './Components/Pages/Case';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='website-projects' element={<WebProjects />} />
+            <Route path='website-projects/case' element={<Case />} />
           </Route>
         </Routes>
         </BrowserRouter>

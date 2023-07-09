@@ -4,7 +4,7 @@ import { FaGithub,FaLinkedin,FaResearchgate,FaFacebook } from 'react-icons/fa';
 
 const Banner = () => {
   return (
-    <div className='lg:w-[1000px] container mx-auto lg:h-screen sm:h-[900px] h-screen flex items-center relative'>
+    <div className='lg:w-[1000px] container mx-auto md:px-0 px-5 lg:h-screen sm:h-[900px] h-screen flex items-center relative'>
       <div className='lg:w-9/12 md:w-10/12 text-white text-left z-20 absolute mt-24 xs:mx-0 mx-3'>
         <h1 className='xs:text-[40px] text-[30px] tracking-wider font-archivo font-extrabold'>Kyson is a designer and art director who loves to craft a good story.</h1>
         <img className='pt-8' src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b91c9bcae89e57253d599a9_horizontal-line.svg" alt="" />

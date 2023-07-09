@@ -11,7 +11,7 @@ const project = [
         textclr: "white",
         visiblewht: "inline-block",
         visibleblk: "none",
-        link: "/casestudy"
+        caselink: "website-projects/case"
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const project = [
         textclr: "",
         visiblewht: "inline-block",
         visibleblk: "none",
-        link: ""
+        caselink: ""
     },
     {
         id: 3,
@@ -39,7 +39,7 @@ const project = [
         textclr: "",
         visiblewht: "inline-block",
         visibleblk: "none",
-        link: ""
+        caselink: ""
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ const project = [
         textclr: "black",
         visiblewht: "none",
         visibleblk: "inline-block",
-        link: ""
+        caselink: ""
     },
     {
         id: 5,
@@ -67,7 +67,7 @@ const project = [
         textclr: "",
         visiblewht: "none",
         visibleblk: "inline-block",
-        link: ""
+        caselink: ""
     }
 ]
 export default project;

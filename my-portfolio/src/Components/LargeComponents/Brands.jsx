@@ -2,7 +2,7 @@ import React from 'react';
 
 const Brands = () => {
   return (
-    <div className='lg:w-[1000px] container mx-auto'>
+    <div className='lg:w-[1000px] container mx-auto md:px-0 px-5'>
       <div className='w-full flex flex-col items-center'>
         <img className='mt-12' src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a118854430d1d59670a_x.svg" alt="" />
         <img className='pt-5' src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a51b07f22c423841fab_vertical-line.svg" alt="" />
