@@ -1,3 +1,5 @@
+import containers from '../../assets/images/Advanced/Shipping-Containers.jpg'
+
 const project = [
     {
         id: 1,
@@ -11,49 +13,49 @@ const project = [
         textclr: "white",
         visiblewht: "inline-block",
         visibleblk: "none",
-        caselink: "website-projects/case"
+        caselink: "case-study"
     },
     {
         id: 2,
-        image: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5e04efbf0b1ac58fadeb3a64_boosted-ux-hero.jpg",
-        logoimg: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b108cc05b79239093932284_boosted-logo-white.png",
-        altlogo: "Boosted",
-        role: "LEAD UX DESIGNER",
-        project: "LEADING DESIGN FOR BOOSTED’S WEBSITE",
-        intro: "As the first designer at Boosted, I built the website, crafted the design system, and helped create a standout site experience.",
-        button: "View case study",
-        textclr: "",
-        visiblewht: "inline-block",
-        visibleblk: "none",
-        caselink: ""
-    },
-    {
-        id: 3,
-        image: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5ba80822f49b776649f0e0b6_moment-cs-bg1.jpg",
-        logoimg: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5ba8090af49b7768e3f0e164_moment-logo.png",
-        altlogo: "Moment",
-        role: "LEAD UX DESIGNER",
-        project: "WHERE TRAVEL MEETS PHOTOGRAPHY",
-        intro: "I was lucky enough to work with the good people at Moment to explore ways to improve booking trips on their travel site.",
+        image: containers,
+        logoimg: "https://advancedengineering.com.bd/wp-content/uploads/2023/05/cropped-cropped-logo-advanced-1-1-2.png",
+        altlogo: "advanced engineering",
+        role: "Web Developer",
+        project: "Transforming the Online Presence of Advanced Engineering",
+        intro: "I was lucky enough to work with the good people of Advanced Engineerins to develop a website for there company on behalf of Tech Bucket.",
         button: "view case study",
         textclr: "",
         visiblewht: "inline-block",
         visibleblk: "none",
-        caselink: ""
+        caselink: "advanced-engineering"
+    },
+    {
+        id: 3,
+        image: "https://www.aboutsmartcities.com/wp-content/uploads/2023/02/ai.webp",
+        logoimg: "https://hakkanigroup.net/wp-content/uploads/2023/03/Untitled-1-removebg-preview_c.png",
+        altlogo: "Hakkani Group",
+        role: "Web Developer",
+        project: "When Hakkani group needs a website.",
+        intro: "I was lucky enough to work with the good people at Hakkani group to develop a website for there group of company on behalf of Tech Bucket.",
+        button: "view case study",
+        textclr: "",
+        visiblewht: "inline-block",
+        visibleblk: "none",
+        caselink: "hakkani-group"
     },
     {
         id: 4,
-        image: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b57f13e6a84102061bc1020_boosted-campaigns.jpg",
-        logoimg: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b108cc05b79239093932284_boosted-logo-white.png",
-        altlogo: "Boosted",
-        role: "ART DIRECTOR",
-        project: "BRANDING AN ELECTRIC TRANSPORTATION CO.",
-        intro: "I lead the creative team at Boosted managing their brand, web design, photography, and filmmaking.",
+        image: "https://scontent.fcgp31-1.fna.fbcdn.net/v/t39.30808-6/353024298_279537834596494_809814765038972496_n.png?_nc_cat=109&cb=99be929b-59f725be&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeG98toZf9ZfuXur1ssniP3jHH-Fb2ltesccf4VvaW16x55bqlWx9YcIE5tVG6JkojCOVk7H-FCk80O2ZOEgExaK&_nc_ohc=l-OGSe2poFAAX-khNBe&_nc_ht=scontent.fcgp31-1.fna&oh=00_AfBr4qZDYRfJMKypV9XYHAGP5AS4vpEDTkne3BIMhT7Wdw&oe=64B56E42",
+        logoimg: "https://smile.hakkanigroup.net/images/logo.png",
+        altlogo: "Smile tissue",
+        role: "Web Developer",
+        project: "Developing a brand website.",
+        intro: "I developed the website at Tech Bucket during my internship with them. Smile Tissue is one of there many clients.",
         button: "view case study",
         textclr: "black",
         visiblewht: "none",
         visibleblk: "inline-block",
-        caselink: ""
+        caselink: "smile-tissue"
     },
     {
         id: 5,
@@ -67,7 +69,7 @@ const project = [
         textclr: "",
         visiblewht: "none",
         visibleblk: "inline-block",
-        caselink: ""
+        caselink: "case-study"
     }
 ]
 export default project;

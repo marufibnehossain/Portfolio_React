@@ -18,6 +18,7 @@ function portfolio(works) {
             textclr={works.textclr}
             visiblewht={works.visiblewht} 
             visibleblk={works.visibleblk} 
+            caselink={works.caselink}
           />
 }
 

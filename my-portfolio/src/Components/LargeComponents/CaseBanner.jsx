@@ -3,7 +3,8 @@ import React from 'react';
 const CaseBanner = (props) => {
   return (
     <div style={{backgroundImage:`url(${props.bannerimage})`}} className='w-full bg-cover bg-top mx-auto md:px-0 px-5 lg:h-[764px] sm:h-[800px] h-[750px] flex items-center relative'>
-        <div className='lg:w-[1000px] container mx-auto grid md:grid-cols-3 gap-0 mt-28'>
+        <div className='w-full bg-[rgba(0,0,0,0.5)] mx-auto md:px-0 px-5 lg:h-[764px] sm:h-[800px] h-[750px] flex items-center absolute z-10'></div>
+        <div className='lg:w-[1000px] container mx-auto grid md:grid-cols-3 gap-0 mt-28 z-20'>
             <div className='text-left md:col-span-3 md:my-0 my-5'>
                 <h6 className='font-teko text-base font-normal text-[#CCA354] tracking-widest uppercase'>Brand</h6>
                 <img className='md:mb-32 mb-10 w-[130px]' src={props.logoimg} alt={props.altlogo} />
