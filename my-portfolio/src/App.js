@@ -9,6 +9,7 @@ import ScrollToTop from './ScrollToTop';
 import SmileTissue from './Components/Pages/Case-Study/SmileTissue';
 import HakkaniGroup from './Components/Pages/Case-Study/HakkaniGroup';
 import AdvancedEngr from './Components/Pages/Case-Study/AdvancedEngr';
+import SalmanArefin from './Components/Pages/Case-Study/SalmanArefin';
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
             <Route path='website-projects/hakkani-group' element={<HakkaniGroup />} />
             <Route path='advanced-engineering' element={<AdvancedEngr />} />
             <Route path='website-projects/advanced-engineering' element={<AdvancedEngr />} />
+            <Route path='salman-arefin' element={<SalmanArefin />} />
+            <Route path='website-projects/salman-arefin' element={<SalmanArefin />} />
           </Route>
         </Routes>
         </BrowserRouter>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Case from '../LargeComponents/Case';
-import caseData from '../Data/casesections';
+import caseData from '../Data/Case-Study-Data/casesections';
 
 const CaseStudy = () => {
   return (

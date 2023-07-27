@@ -1,8 +1,10 @@
-import webFull from '../../assets/images/SmileTissue/web-full.png';
-import mobile from '../../assets/images/SmileTissue/responsive.png';
+import webFull from '../../../assets/images/SmileTissue/web-full.png';
+import mobile from '../../../assets/images/SmileTissue/responsive.png';
+import banner from '../../../assets/images/SmileTissue/banner.jpg';
+
 
 const smileData = {
-    bannerimage : "https://scontent.fcgp31-1.fna.fbcdn.net/v/t39.30808-6/353024298_279537834596494_809814765038972496_n.png?_nc_cat=109&cb=99be929b-59f725be&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeG98toZf9ZfuXur1ssniP3jHH-Fb2ltesccf4VvaW16x55bqlWx9YcIE5tVG6JkojCOVk7H-FCk80O2ZOEgExaK&_nc_ohc=l-OGSe2poFAAX-khNBe&_nc_ht=scontent.fcgp31-1.fna&oh=00_AfBr4qZDYRfJMKypV9XYHAGP5AS4vpEDTkne3BIMhT7Wdw&oe=64B56E42",
+    bannerimage : banner,
     logoimg : "https://smile.hakkanigroup.net/images/logo.png",
     project:"developing a single page website for Smile tissue.",
     summary:"I designed & developed the frontend of the website.",

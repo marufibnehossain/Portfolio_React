@@ -1,20 +1,22 @@
 import React from 'react';
 import Case from '../../LargeComponents/Case';
-import aeData from '../../Data/advancedEngr';
+// import aeData from '../../Data/advancedEngr';
+import caseData from '../../Data/Case-Study-Data/caseData';
 
 const AdvancedEngr = () => {
   return (
     <div>
       <Case 
-        bannerimage = {aeData.bannerimage}
-        logoimg = {aeData.logoimg}
-        project={aeData.project}
-        summary={aeData.summary}
-        responsibilities={aeData.responsibilities}
-        bgheader={aeData.bgheader}
-        bgdetails={aeData.bgdetails}
-        image={aeData.image}
-        section={aeData.section} 
+        key={caseData[0].id}
+        bannerimage = {caseData[0].bannerimage}
+        logoimg = {caseData[0].logoimg}
+        project={caseData[0].project}
+        summary={caseData[0].summary}
+        responsibilities={caseData[0].responsibilities}
+        bgheader={caseData[0].bgheader}
+        bgdetails={caseData[0].bgdetails}
+        image={caseData[0].image}
+        section={caseData[0].section} 
         />
     </div>
   )

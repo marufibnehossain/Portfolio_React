@@ -1,4 +1,9 @@
-import containers from '../../assets/images/Advanced/Shipping-Containers.jpg'
+import containers from '../../assets/images/Advanced/Shipping-Containers.jpg';
+import smileBanner from '../../assets/images/SmileTissue/banner.jpg';
+import salmanLogo from '../../assets/images/SalmanArefin/Sa-Logo.png';
+import saBanner from '../../assets/images/SalmanArefin/sabanner.png';
+
+
 
 const project = [
     {
@@ -45,11 +50,11 @@ const project = [
     },
     {
         id: 4,
-        image: "https://scontent.fcgp31-1.fna.fbcdn.net/v/t39.30808-6/353024298_279537834596494_809814765038972496_n.png?_nc_cat=109&cb=99be929b-59f725be&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeG98toZf9ZfuXur1ssniP3jHH-Fb2ltesccf4VvaW16x55bqlWx9YcIE5tVG6JkojCOVk7H-FCk80O2ZOEgExaK&_nc_ohc=l-OGSe2poFAAX-khNBe&_nc_ht=scontent.fcgp31-1.fna&oh=00_AfBr4qZDYRfJMKypV9XYHAGP5AS4vpEDTkne3BIMhT7Wdw&oe=64B56E42",
+        image: smileBanner,
         logoimg: "https://smile.hakkanigroup.net/images/logo.png",
         altlogo: "Smile tissue",
         role: "Web Developer",
-        project: "Developing a brand website.",
+        project: "developing a single page website for Smile tissue.",
         intro: "I developed the website at Tech Bucket during my internship with them. Smile Tissue is one of there many clients.",
         button: "view case study",
         textclr: "black",
@@ -59,17 +64,17 @@ const project = [
     },
     {
         id: 5,
-        image: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5ba804eec325b6c82e35249a_cardiff-cs-bg.jpg",
-        logoimg: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5ba80546f49b775f09f0dfca_cardiff-logo.png",
-        altlogo: "Cardiff",
-        role: "GRAPHIC DESIGNER",
-        project: "DESIGNING GRAPHICS FOR A SNOWBOARD",
-        intro: "I'm helping create a snowboard brand focused on high performance in the backcountry.",
+        image: saBanner,
+        logoimg: salmanLogo,
+        altlogo: "Salman Arefin",
+        role: "Web developer",
+        project: "A Digital Portfolio Showcasing Multifaceted Expertise",
+        intro: "I developed a captivating website for Salman Arefin. The website showcased his versatile expertise.",
         button: "view case study",
-        textclr: "",
+        textclr: "black",
         visiblewht: "none",
         visibleblk: "inline-block",
-        caselink: "case-study"
+        caselink: "salman-arefin"
     }
 ]
 export default project;

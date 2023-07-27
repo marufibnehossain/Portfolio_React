@@ -1,16 +1,17 @@
-import webFull from '../../assets/images/Hakkani/web-full.png';
-import design from '../../assets/images/Hakkani/design.png';
-import mobile from '../../assets/images/Hakkani/responsive.png';
+import containers from '../../../assets/images/Advanced/Shipping-Containers.jpg'
+import webFull from '../../../assets/images/Hakkani/web-full.png';
+import design from '../../../assets/images/Hakkani/design.png';
+import mobile from '../../../assets/images/Hakkani/responsive.png';
 
-const hakkaniData = {
-    bannerimage : "https://www.aboutsmartcities.com/wp-content/uploads/2023/02/ai.webp",
-    logoimg : "https://hakkanigroup.net/wp-content/uploads/2023/03/Untitled-1-removebg-preview_c.png",
-    project:"developing a website for Hakkani group",
-    summary:"I was lucky enough to work with the good people at Hakkani group to develop a website for there group of company on behalf of Tech Bucket.",
+const aeData = {
+    bannerimage : containers,
+    logoimg : "https://advancedengineering.com.bd/wp-content/uploads/2023/05/cropped-cropped-logo-advanced-1-1-2.png",
+    project:"Transforming the Online Presence of Advanced Engineering",
+    summary:"I was lucky enough to work with the good people of Advanced Engineerins to develop a website for there company on behalf of Tech Bucket.",
     responsibilities:"Web Development",
-    bgheader:"When Hakkani group needs a website.", 
-    bgdetails:"The Hakkani Group website is a WordPress-based website created to showcase the company and its services to international clients. The website serves as an online platform to establish the Hakkani Group's brand presence, highlight its capabilities, and provide relevant information to potential clients.",
-    image:"https://hakkanigroup.net/wp-content/uploads/2019/04/post_image1.jpg",
+    bgheader:"Starting from Scratch", 
+    bgdetails:"In the early stages of the project, the company recognized the need for a robust online presence that could effectively communicate its unique value proposition.  By starting afresh, Advanced Engineering aimed to create a visually appealing and user-friendly website that would engage visitors and convert them into potential clients. The Advanced Engineering website was meticulously developed to showcase the company's expertise and services to a global audience. With a focus on international clients, the website serves as an essential platform for Advanced Engineering to establish its brand presence and provide comprehensive information about its capabilities.",
+    image:"https://mccontainers.com/wp-content/uploads/2018/04/45-view-r-l.jpg",
 
     section : [
         {
@@ -38,4 +39,4 @@ const hakkaniData = {
 
 
 }
-export default hakkaniData;
+export default aeData;

@@ -1,20 +1,21 @@
 import React from 'react';
 import Case from '../../LargeComponents/Case';
-import hakkaniData from '../../Data/hakkaniData';
+import caseData from '../../Data/Case-Study-Data/caseData';
 
 const HakkaniGroup = () => {
   return (
     <div>
       <Case 
-        bannerimage = {hakkaniData.bannerimage}
-        logoimg = {hakkaniData.logoimg}
-        project={hakkaniData.project}
-        summary={hakkaniData.summary}
-        responsibilities={hakkaniData.responsibilities}
-        bgheader={hakkaniData.bgheader}
-        bgdetails={hakkaniData.bgdetails}
-        image={hakkaniData.image}
-        section={hakkaniData.section} 
+        key = {caseData[1].id}
+        bannerimage = {caseData[1].bannerimage}
+        logoimg = {caseData[1].logoimg}
+        project={caseData[1].project}
+        summary={caseData[1].summary}
+        responsibilities={caseData[1].responsibilities}
+        bgheader={caseData[1].bgheader}
+        bgdetails={caseData[1].bgdetails}
+        image={caseData[1].image}
+        section={caseData[1].section} 
         />
     </div>
   )
