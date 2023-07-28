@@ -4,6 +4,7 @@ import { BiSupport  } from 'react-icons/bi';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import Heading from '../SmallComponents/Heading';
+import profile2 from '../../assets/images/profile/profile12.jpg'
 
 const Aboutme = () => {
   return (
@@ -13,24 +14,24 @@ const Aboutme = () => {
         sub= "My Introduction"
       />
       <div className='grid md:grid-cols-2 grid-cols-1 gap-10'>
-        <div className='md:w-5/6 w-4/6 h-auto overflow-hidden rounded-3xl max-md:mx-auto'>
-            <img className='h-full w-auto overflow-hidden object-cover' src="https://scontent.fcgp31-1.fna.fbcdn.net/v/t39.30808-6/271708847_2193658780787412_6392661202731767729_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFvUOrVlZyLO1EQhA1J9euaIRQKcp7ohpshFApynuiGm0KSoAPikPT9rtMVsWxqpDPKpeIrSuN2-4SVzBE3Pqxn&_nc_ohc=QsCoVMRBWz8AX-YoHzY&_nc_ht=scontent.fcgp31-1.fna&oh=00_AfCAcTpBsfuD9Xtb9449Pipl_m01KRK3Wv2y2M7KIUf-pw&oe=6424153B" alt="" />
+        <div className='md:w-5/6 sm:w-4/6 w-10/12 h-auto overflow-hidden rounded-3xl max-md:mx-auto border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.5)]'>
+            <img className='h-full w-auto overflow-hidden object-cover' src={profile2} alt="" />
         </div>
         <div className='flex flex-col justify-between gap-6'>
             <div className='grid grid-cols-3 gap-3 text-[#d2d2d2] font-nunito'>
                 <div className='border-2 border-[#cca354] rounded-xl flex flex-col 2xs:p-3 p-1.5 shadow-[0px_0px_15px_rgba(204,163,84,0.3)]'>
                     <FaRibbon className='md:text-2xl text-xl mx-auto mt-1 text-[#cca354]' />
-                    <h4 className='font-medium sm:text-base 3xs:text-sm text-xs 2xs:my-1 my-0.5'>Experience</h4>
+                    <h4 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Experience</h4>
                     <p className='text-xs font-light mb-1 text-[#cca354]'>8+ Years</p>
                 </div>
                 <div className='border-2 border-[#cca354] rounded-xl flex flex-col 2xs:p-3 p-1.5 shadow-[0px_0px_15px_rgba(204,163,84,0.3)]'>
                     <FaSuitcase className='md:text-2xl text-xl mx-auto mt-1 text-[#cca354]' />
-                    <h4 className='font-medium sm:text-base 3xs:text-sm text-xs 2xs:my-1 my-0.5'>Completed</h4>
+                    <h4 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Completed</h4>
                     <p className='text-xs font-light mb-1 text-[#cca354]'>48+ Projects</p>
                 </div>
                 <div className='border-2 border-[#cca354] rounded-xl flex flex-col 2xs:p-3 p-1.5 shadow-[0px_0px_15px_rgba(204,163,84,0.3)]'>
                     <BiSupport className='md:text-2xl text-xl mx-auto mt-1 text-[#cca354]' />
-                    <h4 className='font-medium sm:text-base 3xs:text-sm text-xs 2xs:my-1 my-0.5'>Support</h4>
+                    <h4 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Support</h4>
                     <p className='text-xs font-light mb-1 text-[#cca354]'>Online 24/7</p>
                 </div>
             </div>

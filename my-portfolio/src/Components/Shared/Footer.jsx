@@ -4,7 +4,7 @@ import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='w-full p-5 bg-inherit'>
+    <div className='w-full p-5 bg-[#181818]'>
       <div className='w-[94%] mx-auto md:flex md:justify-between lg:my-20 md:my-16 my-10'>
         {/* left */}
         <div className='flex lg:gap-24 gap-5 md:flex-row flex-col '>
