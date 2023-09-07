@@ -5,7 +5,7 @@ import saBanner from '../../assets/images/SalmanArefin/sabanner.png';
 
 
 
-const project = [
+export const projectsData = [
     {
         id: 1,
         image: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/6362d058c159b6998224ea81_220801_KYSON-DANA_EASTERN_IDAHO-.jpeg",
@@ -18,7 +18,8 @@ const project = [
         textclr: "white",
         visiblewht: "inline-block",
         visibleblk: "none",
-        caselink: "case-study"
+        caselink: "case-study",
+        category: "WordPress"
     },
     {
         id: 2,
@@ -32,7 +33,8 @@ const project = [
         textclr: "",
         visiblewht: "inline-block",
         visibleblk: "none",
-        caselink: "advanced-engineering"
+        caselink: "advanced-engineering",
+        category: "WordPress"
     },
     {
         id: 3,
@@ -46,7 +48,8 @@ const project = [
         textclr: "",
         visiblewht: "inline-block",
         visibleblk: "none",
-        caselink: "hakkani-group"
+        caselink: "hakkani-group",
+        category: "WordPress"
     },
     {
         id: 4,
@@ -60,7 +63,8 @@ const project = [
         textclr: "black",
         visiblewht: "none",
         visibleblk: "inline-block",
-        caselink: "smile-tissue"
+        caselink: "smile-tissue",
+        category: "HTML-CSS"
     },
     {
         id: 5,
@@ -74,7 +78,26 @@ const project = [
         textclr: "black",
         visiblewht: "none",
         visibleblk: "inline-block",
-        caselink: "salman-arefin"
+        caselink: "salman-arefin",
+        category: "WordPress"
     }
 ]
-export default project;
+
+
+export const projectsNav = [
+    {
+        name: 'All'
+    },
+    {
+        name: 'HTML-CSS'
+    },
+    {
+        name: 'JavaScript'
+    },
+    {
+        name: 'MERN'
+    },
+    {
+        name: 'WordPress'
+    }
+]

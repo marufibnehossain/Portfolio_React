@@ -1,7 +1,7 @@
 import React from 'react';
 import Heading from '../SmallComponents/Heading';
 import ProjectComp from '../SmallComponents/ProjectComp';
-import project from '../Data/projects';
+import { projectsData } from '../Data/projects';
 
 
 function portfolio(works) {
@@ -18,6 +18,7 @@ function portfolio(works) {
             visiblewht={works.visiblewht} 
             visibleblk={works.visibleblk} 
             caselink={works.caselink}
+            category={works.category}
           />
 }
 
@@ -25,7 +26,7 @@ const Projects = () => {
   return (
     <section className='mxs:px-7 px-4 py-5 lg:mt-10 lg:mb-10 md:mb-16 my-10 flex flex-col font-nunito'>
         <Heading heading="Projects" sub="Most recent works" />
-        {project.map(portfolio)}
+        {projectsData.map(portfolio)}
     </section>
   )
 }

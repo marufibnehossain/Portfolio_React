@@ -51,22 +51,22 @@ const skillData = [
         SkillNames:[
             {
                 id: 1,
-                skill: "HTML",
-                level: "Basic"
+                skill: "NodeJS",
+                level: "Intermediate"
             },
             {
                 id: 2,
-                skill: "NodeJS",
-                level: "Basic"
+                skill: "Express",
+                level: "Intermediate"
             },
             {
                 id: 3,
-                skill: "Bootstrap",
+                skill: "EJS",
                 level: "Basic"
             },
             {
                 id: 4,
-                skill: "TailwindCSS",
+                skill: "APIs",
                 level: "Basic"
             },
             {
