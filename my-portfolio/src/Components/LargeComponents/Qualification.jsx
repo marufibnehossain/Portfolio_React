@@ -22,11 +22,10 @@ const Qualification = () => {
               <QualityLeft department="Computer Science & Engineering" institute="Port City International University - Chattogram" duration="2018 - 2022" />
               <QualityRight department="H.S.C in Science" institute="Hazera Tazu Degree College - Chattogram" duration="2015 - 2017" />
               <QualityLeft department="S.S.C in Science" institute="Bangladesh International School & College, Jeddah - Chattogram" duration="2003 - 2015" />
-              <QualityRight department="Computer Science & Engineering" institute="Port City International University - Chattogram" duration="2018 - 2022" />
             </div>
             <div className={toggleState === 1 ? 'lg:w-[70%] md:w-[90%] w-11/12 mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] w-11/12 mx-auto my-5'}>
               <QualityLeft department="MERN Stack Developer Intern" institute="KPR Tech - Chattogram" duration="Dec 2022 - Apr 2023" />
-              <QualityRight department="Front-end web developer" institute="Tech Bucket - Chattogram" duration="Dec 2022 - May 2023" />
+              <QualityRight department="Front-end web developer" institute="Tech Bucket - Chattogram" duration="Jan 2023 - Jun 2023" />
               {/* <QualityLeft department="Front-end web developer" institute="Compunder - Chattogram" duration="2022 - Present" />
               <QualityRight department="Front-end web developer" institute="Compunder - Chattogram" duration="2022 - Present" /> */}
             </div>

@@ -10,6 +10,7 @@ import SmileTissue from './Components/Pages/Case-Study/SmileTissue';
 import HakkaniGroup from './Components/Pages/Case-Study/HakkaniGroup';
 import AdvancedEngr from './Components/Pages/Case-Study/AdvancedEngr';
 import SalmanArefin from './Components/Pages/Case-Study/SalmanArefin';
+import Research from './Components/Pages/Research';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='website-projects' element={<WebProjects />} />
+            <Route path='Research-projects' element={<Research />} />
             <Route path='case-study' element={<CaseStudy />} />
             <Route path='website-projects/case-study' element={<CaseStudy />} />
             <Route path='smile-tissue' element={<SmileTissue />} />

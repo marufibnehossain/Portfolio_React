@@ -17,7 +17,7 @@ const Navbar = ({ setIsOpen }) => {
             <Link to="/" className='mx-5 transition-all duration-300 hover:text-shadow-[0px_0px_15px_rgba(204,163,84)]'>Home</Link>
             <Link to="/about" className='mx-5 transition-all duration-300 hover:text-shadow-[0px_0px_15px_rgba(204,163,84)]'>About</Link>
             <Link to="/website-projects" className='mx-5 transition-all duration-300 hover:text-shadow-[0px_0px_15px_rgba(204,163,84)]'>Website Projects</Link>
-            <Link className='mx-5 transition-all duration-300 hover:text-shadow-[0px_0px_15px_rgba(204,163,84)]'>Research projects</Link>
+            <Link to='/research-projects' className='mx-5 transition-all duration-300 hover:text-shadow-[0px_0px_15px_rgba(204,163,84)]'>Research projects</Link>
             <Link className='ml-5 transition-all duration-300 hover:text-shadow-[0px_0px_15px_rgba(204,163,84)]'>Contact</Link>
         </div>
         <div className="text-[#CCA354] my-auto md:hidden block">

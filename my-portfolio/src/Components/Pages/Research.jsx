@@ -4,8 +4,8 @@ import Heading from '../SmallComponents/Heading';
 import ProjectComp from '../SmallComponents/ProjectComp';
 import { projectsData } from '../Data/projects';
 import { projectsNav } from '../Data/projects';
-import webImg from '../../assets/images/Outline-text/Website.png';
-import webImgmd from '../../assets/images/Outline-text/websitemd.png';
+import webImgR from '../../assets/images/Outline-text/websiteR.png';
+import webImgRmd from '../../assets/images/Outline-text/websiteRmd.png';
 
 function portfolio(works) {
   return <ProjectComp 
@@ -25,7 +25,7 @@ function portfolio(works) {
           />
 }
 
-const WebProjects = () => {
+const Research = () => {
   const [item, setItem] = useState({name: 'All'});
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
@@ -58,13 +58,13 @@ const WebProjects = () => {
   return (
     <>
       <ProjectBanner 
-        img= {webImg} 
-        imgmd={webImgmd} 
+        img= {webImgR} 
+        imgmd={webImgRmd} 
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rerum ducimus obcaecati esse quis excepturi autem, eligendi sapiente porro? Itaque."
       />
       
       <section className='mxs:px-7 px-4 py-5 lg:mb-10 md:mb-16 flex flex-col font-nunito'>
-        <Heading class='!my-8' heading="Projects" sub="Most recent works" />
+        <Heading class='!my-8' heading="Research Projects" sub="Most recent works" />
         <div className='xs:pt-8 2xs:pt-3 pt-1 xs:pb-10 2xs:pb-7 pb-4'>{projectsNav.map(portfolioNav)}</div>
         {projects.map(portfolio)}
       </section>
@@ -73,4 +73,4 @@ const WebProjects = () => {
   )
 }
 
-export default WebProjects;
+export default Research;
