@@ -1,6 +1,5 @@
 import React from 'react';
 import Case from '../../LargeComponents/Case';
-// import aeData from '../../Data/advancedEngr';
 import caseData from '../../Data/Case-Study-Data/caseData';
 
 const AdvancedEngr = () => {

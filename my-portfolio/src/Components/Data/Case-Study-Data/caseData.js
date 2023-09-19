@@ -13,6 +13,13 @@ import saBanner from '../../../assets/images/SalmanArefin/sabanner.png';
 import saWebFull from '../../../assets/images/SalmanArefin/saWebFull.png';
 import saIndustries from '../../../assets/images/SalmanArefin/saIndustries.png';
 import saPortfolio from '../../../assets/images/SalmanArefin/saPortfolio.png';
+import fajrLogo from '../../../assets/images/FajrAdvertising/Fajr-Advertising-Logo-1.png';
+import fajrBanner from '../../../assets/images/FajrAdvertising/fajrBg.png';
+import detailsImage from '../../../assets/images/FajrAdvertising/image.jpg';
+import servicePage from '../../../assets/images/FajrAdvertising/services.png';
+import projectPage from '../../../assets/images/FajrAdvertising/projects.png';
+import frontPage from '../../../assets/images/FajrAdvertising/frontpage.png';
+import responsive from '../../../assets/images/FajrAdvertising/responsive.png';
 
 
 const caseData = [
@@ -87,8 +94,6 @@ const caseData = [
                 details:"The website prioritizes a positive user experience by providing intuitive navigation and easy access to relevant information. The navigation menus and internal links ensure smooth browsing, allowing visitors to find the desired content quickly. Additionally, the website is designed to be responsive, adapting seamlessly to different screen sizes and devices. This ensures a consistent and visually appealing experience for visitors using desktops, laptops, tablets, and mobile devices."
             },
         ]
-    
-    
     },
     {
         // Smile Tissue
@@ -163,8 +168,56 @@ const caseData = [
                 details:"Recognizing the importance of seamless access across devices, the website was meticulously designed with a responsive layout. This ensured that visitors, regardless of the device they used, experienced a seamless browsing experience, allowing Salman's creativity and expertise to shine through."
             },
         ]
+    },
+    {
+        // fajr advertising
+        id:5,
+        bannerimage : fajrBanner,
+        logoimg : fajrLogo,
+        project: "Illuminating Success through Services and Projects",
+        summary: "Fajr Advertising's website is more than just a digital presence; it's a beacon of creativity and innovation. I thoughtfully crafted it to provide visitors with an immersive experience that mirrors the company's values and expertise.",
+        responsibilities:"Web Development",
+        bgheader:"Starting from scratch", 
+        bgdetails:"The Fajr Advertising website is a digital portal that illuminates the remarkable journey of Fajr Advertising, a pioneering company celebrated for its exceptional prowess in the realm of marketing and advertising. This case study delves into the website's core elements, spotlighting its extensive array of services and showcasing some of the remarkable projects that epitomize Fajr Advertising's commitment to excellence.",
+        image: detailsImage,
     
-    
+        section : [
+            {
+                id: 1,
+                image: servicePage,
+                topic:"Services",
+                header:"A Multifaceted Service Portfolio:",
+                details:"At the heart of the website lies a comprehensive presentation of services. Fajr Advertising offers a multifaceted range of solutions tailored to meet clients' unique needs from diverse industries. These services span a broad spectrum, including but not limited to Digital Marketing​, Web and app Design and development, Brand Identity, Event Management, AV/TVC Production, 360° Graphics Design, Creative Strategy & Execution and Motion Graphics. This diversity underscores Fajr Advertising's versatility and ability to thrive in multifaceted business environments."
+            },
+            {
+                id: 2,
+                image: projectPage,
+                topic:"Showcasing Projects",
+                header:"Projects That Define Success:",
+                details:"The website showcases a captivating portfolio of projects, each a testament to Fajr Advertising's competence and innovation. From ingenious marketing campaigns to impactful advertising endeavors, the projects section vividly illustrates the company's ability to transform creative ideas into tangible success stories."
+            },
+            {
+                id: 3,
+                image: frontPage,
+                topic:"Dynamic Design",
+                header:"Engaging Content That Forges Connections:",
+                details:"To engage visitors effectively, the website employs interactive elements. Case studies of select projects provide deep insights into Fajr Advertising's creative approach, strategies deployed, and the profound impact achieved. Engaging visuals, compelling testimonials, and success stories leave a lasting impression on visitors, fostering trust and confidence in the company's creative capabilities."
+            },
+            {
+                id: 4,
+                image: responsive,
+                topic:"Responsiveness",
+                header:"Responsive Design for Seamless Accessibility:",
+                details:"The website boasts a responsive design, ensuring that visitors can effortlessly access and navigate its content on various devices, including desktops, laptops, tablets, and smartphones. The website's adaptability underscores Fajr Advertising's commitment to providing an accessible and engaging user experience."
+            },
+            {
+                id: 5,
+                image: '',
+                topic:"Future",
+                header:"A Glimpse of the Future:",
+                details:"As Fajr Advertising continues to evolve and embrace new challenges, the website remains a vital tool for growth and creativity. Regular updates to the projects section will allow the company to showcase its latest creative endeavors and adaptability in an ever-changing business landscape."
+            },
+        ]
     }
 
 ]

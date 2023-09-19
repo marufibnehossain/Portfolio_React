@@ -24,8 +24,9 @@ const Qualification = () => {
               <QualityLeft department="S.S.C in Science" institute="Bangladesh International School & College, Jeddah - Chattogram" duration="2003 - 2015" />
             </div>
             <div className={toggleState === 1 ? 'lg:w-[70%] md:w-[90%] w-11/12 mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] w-11/12 mx-auto my-5'}>
-              <QualityLeft department="MERN Stack Developer Intern" institute="KPR Tech - Chattogram" duration="Dec 2022 - Apr 2023" />
+              <QualityLeft department="Web Developer" institute="Al Tijaarat - Chattogram" duration="jun 2023 - current" />
               <QualityRight department="Front-end web developer" institute="Tech Bucket - Chattogram" duration="Jan 2023 - Jun 2023" />
+              <QualityLeft department="MERN Stack Developer Intern" institute="KPR Tech - Chattogram" duration="Dec 2022 - Apr 2023" />
               {/* <QualityLeft department="Front-end web developer" institute="Compunder - Chattogram" duration="2022 - Present" />
               <QualityRight department="Front-end web developer" institute="Compunder - Chattogram" duration="2022 - Present" /> */}
             </div>

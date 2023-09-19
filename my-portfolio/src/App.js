@@ -4,13 +4,13 @@ import Home from './Components/Home/Home';
 import About from './Components/Pages/About';
 import Nav from './Components/Shared/Nav';
 import WebProjects from './Components/Pages/WebProjects';
-import CaseStudy from './Components/Pages/CaseStudy';
 import ScrollToTop from './ScrollToTop';
 import SmileTissue from './Components/Pages/Case-Study/SmileTissue';
 import HakkaniGroup from './Components/Pages/Case-Study/HakkaniGroup';
 import AdvancedEngr from './Components/Pages/Case-Study/AdvancedEngr';
 import SalmanArefin from './Components/Pages/Case-Study/SalmanArefin';
 import Research from './Components/Pages/Research';
+import FajrAdvertising from './Components/Pages/Case-Study/FajrAdvertising';
 
 
 function App() {
@@ -25,8 +25,8 @@ function App() {
             <Route path='about' element={<About />} />
             <Route path='website-projects' element={<WebProjects />} />
             <Route path='Research-projects' element={<Research />} />
-            <Route path='case-study' element={<CaseStudy />} />
-            <Route path='website-projects/case-study' element={<CaseStudy />} />
+            <Route path='fajr-advertising' element={<FajrAdvertising />} />
+            <Route path='website-projects/fajr-advertising' element={<FajrAdvertising />} />
             <Route path='smile-tissue' element={<SmileTissue />} />
             <Route path='website-projects/smile-tissue' element={<SmileTissue />} />
             <Route path='hakkani-group' element={<HakkaniGroup />} />

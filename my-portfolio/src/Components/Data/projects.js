@@ -2,24 +2,28 @@ import containers from '../../assets/images/Advanced/Shipping-Containers.jpg';
 import smileBanner from '../../assets/images/SmileTissue/banner.jpg';
 import salmanLogo from '../../assets/images/SalmanArefin/Sa-Logo.png';
 import saBanner from '../../assets/images/SalmanArefin/sabanner.png';
-
+import fajrLogo from '../../assets/images/FajrAdvertising/Fajr-Advertising-Logo-1.png';
+import fajrBanner from '../../assets/images/FajrAdvertising/fajrBg.png';
 
 
 export const projectsData = [
     {
         id: 1,
-        image: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/6362d058c159b6998224ea81_220801_KYSON-DANA_EASTERN_IDAHO-.jpeg",
-        logoimg: "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/609325191834b4d6d1bdaef6_rivian-logo-white.svg",
+        image: fajrBanner,
+        logoimg: fajrLogo,
         altlogo:"Rivian",
-        role: "ASSOCIATE CREATIVE DIRECTOR",
-        project: "DESIGNING RIVIAN'S DIGITAL BRAND EXPERIENCE",
-        intro: "I've worked on all things digital but my focus now is on charging and trip planning experiences within the mobile app.",
-        button: "UNDER NDA - NO CASE STUDY",
-        textclr: "white",
+        role: "Web Developer",
+        project: "Illuminating Success through Services and Projects",
+        intro: "The Fajr Advertising website is a digital portal that illuminates the remarkable journey of Fajr Advertising, which I built as the web developer of AlTijaarat.",
+        buttonw: "view CASE STUDY",
+        buttonb: "Visit Website",
+        textclr: "",
         visiblewht: "inline-block",
-        visibleblk: "none",
-        caselink: "case-study",
-        category: "WordPress"
+        visibleblk: "inline-block",
+        caselink: "fajr-advertising",
+        sitelink: "https://fajr.altijaarat.com/",
+        category: "WordPress",
+        featured: "false"
     },
     {
         id: 2,
@@ -29,12 +33,15 @@ export const projectsData = [
         role: "Web Developer",
         project: "Transforming the Online Presence of Advanced Engineering",
         intro: "I was lucky enough to work with the good people of Advanced Engineerins to develop a website for there company on behalf of Tech Bucket.",
-        button: "view case study",
+        buttonw: "view case study",
+        buttonb: "Visit Website",
         textclr: "",
         visiblewht: "inline-block",
-        visibleblk: "none",
+        visibleblk: "inline-block",
         caselink: "advanced-engineering",
-        category: "WordPress"
+        sitelink: "https://advancedengineering.com.bd/",
+        category: "WordPress",
+        featured: "true"
     },
     {
         id: 3,
@@ -44,12 +51,15 @@ export const projectsData = [
         role: "Web Developer",
         project: "When Hakkani group needs a website.",
         intro: "I was lucky enough to work with the good people at Hakkani group to develop a website for there group of company on behalf of Tech Bucket.",
-        button: "view case study",
+        buttonw: "view case study",
+        buttonb: "Visit Website",
         textclr: "",
         visiblewht: "inline-block",
-        visibleblk: "none",
+        visibleblk: "inline-block",
         caselink: "hakkani-group",
-        category: "WordPress"
+        sitelink: "https://hakkanigroup.net/",
+        category: "WordPress",
+        featured: "false"
     },
     {
         id: 4,
@@ -59,12 +69,15 @@ export const projectsData = [
         role: "Web Developer",
         project: "developing a single page website for Smile tissue.",
         intro: "I developed the website at Tech Bucket during my internship with them. Smile Tissue is one of there many clients.",
-        button: "view case study",
+        buttonw: "view case study",
+        buttonb: "Visit Website",
         textclr: "black",
-        visiblewht: "none",
+        visiblewht: "inline-block",
         visibleblk: "inline-block",
         caselink: "smile-tissue",
-        category: "HTML-CSS"
+        sitelink: "https://smile.hakkanigroup.net/",
+        category: "HTML-CSS",
+        featured: "true"
     },
     {
         id: 5,
@@ -74,12 +87,15 @@ export const projectsData = [
         role: "Web developer",
         project: "A Digital Portfolio Showcasing Multifaceted Expertise",
         intro: "I developed a captivating website for Salman Arefin. The website showcased his versatile expertise.",
-        button: "view case study",
+        buttonw: "view case study",
+        buttonb: "Visit Website",
         textclr: "black",
-        visiblewht: "none",
+        visiblewht: "inline-block",
         visibleblk: "inline-block",
         caselink: "salman-arefin",
-        category: "WordPress"
+        sitelink: "https://salmanarefin.ca/",
+        category: "WordPress",
+        featured: "true"
     }
 ]
 

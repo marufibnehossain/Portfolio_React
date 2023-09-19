@@ -62,10 +62,10 @@ code {
     @apply text-[#CCA354] font-medium border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.2)] mxs:mt-14 3xs:mt-12 mt-10 mxs:px-7 px-4 mxs:py-3 py-2 transition-colors duration-200 hover:bg-[#cca354] hover:text-[#181818];
   }
   .case-btn-blk{
-    @apply text-[#CCA354] border-y-[3px] bg-black border-transparent mxs:mt-14 3xs:mt-12 mt-10 mxs:px-7 px-4 mxs:py-3 py-2 transition-colors duration-300 hover:border-b-[#CCA354] hover:shadow-[0px_0px_15px_rgba(204,163,84,0.2)];
+    @apply text-[#CCA354] border-y-[3px] bg-black md:border-transparent border-b-[#CCA354] border-t-transparent mxs:mt-14 3xs:mt-12 mt-2 mxs:ml-3 3xs:ml-1.5 ml-1 mxs:px-7 px-3 mxs:py-3 py-2 transition-colors duration-300 md:hover:border-b-[#CCA354] hover:shadow-[0px_0px_15px_rgba(204,163,84,0.2)];
   }
   .case-btn-b{
-    @apply text-black border-y-[3px] bg-[#CCA354] border-transparent mxs:mt-14 3xs:mt-12 mt-10 mxs:px-7 px-4 mxs:py-3 py-2 transition-colors duration-300 hover:border-b-black hover:shadow-[0px_0px_15px_rgba(204,163,84,0.2)];
+    @apply text-black border-y-[3px] bg-[#CCA354] md:border-transparent border-b-black border-t-transparent mxs:mt-14 3xs:mt-12 mt-10 mxs:mr-3 3xs:mr-1.5 mr-1 mxs:px-7 px-3 mxs:py-3 py-2 transition-colors duration-300 md:hover:border-b-black hover:shadow-[0px_0px_15px_rgba(204,163,84,0.2)];
   }
   .filter-btn{
     @apply px-4 py-1.5 border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.2)] rounded-lg mx-2 my-1.5 text-[#cca354] mxs:text-base 2xs:text-sm text-xs font-bold hover:text-black hover:bg-[#cca354] cursor-pointer;

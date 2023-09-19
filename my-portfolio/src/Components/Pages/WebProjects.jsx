@@ -16,11 +16,13 @@ function portfolio(works) {
             role={works.role} 
             project={works.project} 
             intro={works.intro} 
-            button={works.button} 
+            buttonw={works.buttonw}
+            buttonb={works.buttonb} 
             textclr={works.textclr}
             visiblewht={works.visiblewht} 
             visibleblk={works.visibleblk} 
             caselink={works.caselink}
+            sitelink={works.sitelink}
             category={works.category}
           />
 }
