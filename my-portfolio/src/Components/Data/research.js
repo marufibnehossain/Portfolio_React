@@ -1,23 +1,23 @@
-import fajrLogo from '../../assets/images/FajrAdvertising/Fajr-Advertising-Logo-1.png';
-import fajrBanner from '../../assets/images/FajrAdvertising/fajrBg.png';
+import springerLogo from '../../assets/images/Research/TSDR/springer-logo.png';
+import tsdrBanner from '../../assets/images/Research/TSDR/tsdrs.png';
 
 
 export const researchData = [
     {
         id: 1,
-        image: fajrBanner,
-        logoimg: fajrLogo,
+        image: tsdrBanner,
+        logoimg: springerLogo,
         altlogo:"Rivian",
         role: "Paper Author",
         project: "Traffic Sign Detection & Recognition Using Deep Learning.",
-        intro: "The Fajr Advertising website is a digital portal that illuminates the remarkable journey of Fajr Advertising, which I built as the web developer of AlTijaarat.",
-        buttonw: "view CASE STUDY",
-        buttonb: "Visit Website",
+        intro: "",
+        buttonw: "NO CASE STUDY",
+        buttonb: "Visit Paper",
         textclr: "",
         visiblewht: "inline-block",
         visibleblk: "inline-block",
-        caselink: "fajr-advertising",
-        sitelink: "https://fajr.altijaarat.com/",
+        caselink: "",
+        sitelink: "https://www.researchgate.net/publication/371482772_Traffic_Sign_Detection_and_Recognition_Using_Deep_Learning_Approach",
         category: "Deep Learning",
         featured: "false"
     },

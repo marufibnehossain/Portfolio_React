@@ -28,7 +28,7 @@ function portfolio(works) {
 const Projects = () => {
   return (
     <section className='mxs:px-7 px-4 py-5 lg:mt-10 lg:mb-10 md:mb-16 my-10 flex flex-col font-nunito'>
-        <Heading heading="Projects" sub="Most recent works" />
+        <Heading HeadColor= "text-[#D4D4D4]" heading="Projects" sub="Most recent works" />
         {projectsData.map(portfolio)}
     </section>
   )

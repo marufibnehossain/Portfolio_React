@@ -8,7 +8,7 @@ const SkillContent = (props) => {
       <div className='col-span-1 flex justify-center md:text-lg text-base'>
         <HiOutlineBadgeCheck className='font-base my-1 text-[#cca354]' />
       </div>
-      <div className='col-span-4'>
+      <div className='col-span-4 text-black'>
           <h2 className='font-bold md:text-base text-sm mx-2'>{props.skill}</h2>
           <p className='font-semibold md:text-sm text-xs mx-2'>{props.level}</p>
       </div>
