@@ -62,7 +62,7 @@ const WebProjects = () => {
       <ProjectBanner 
         img= {webImg} 
         imgmd={webImgmd} 
-        text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rerum ducimus obcaecati esse quis excepturi autem, eligendi sapiente porro? Itaque."
+        text="I craft and enhance digital experiences through code, creativity, and innovation. I have a passion for refining the smallest details and transforming significant challenges into extraordinary web solutions."
       />
       
       <section className='mxs:px-7 px-4 py-5 lg:mb-10 md:mb-16 flex flex-col font-nunito'>

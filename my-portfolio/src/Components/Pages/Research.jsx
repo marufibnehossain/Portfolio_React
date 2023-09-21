@@ -63,7 +63,7 @@ const Research = () => {
       <ProjectBanner 
         img= {webImgR} 
         imgmd={webImgRmd} 
-        text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rerum ducimus obcaecati esse quis excepturi autem, eligendi sapiente porro? Itaque."
+        text="I delve into the realms of Machine Learning, AI, and Deep Learning, where I explore the infinite possibilities of algorithms and data."
       />
       
       <section className='mxs:px-7 px-4 py-5 lg:mb-10 md:mb-16 flex flex-col font-nunito'>

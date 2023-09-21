@@ -11,7 +11,7 @@ const Qualification = () => {
     setToggleState(index);
   }
   return (
-    <section className='lg:w-[1000px] container mx-auto md:px-0 px-5 lg:mt-10 lg:pb-10 md:pb-16 pb-10 my-10 flex flex-col font-nunito'>
+    <section className='lg:w-[1000px] container mx-auto md:px-0 px-5 lg:mt-0 lg:pb-10 md:pb-16 pb-10 my-10 flex flex-col font-nunito'>
         <Heading HeadColor= "text-[#000000]" heading= "Qualification" sub="My personal journey" />
         <div>
             <div className='flex justify-center font-bold'>
