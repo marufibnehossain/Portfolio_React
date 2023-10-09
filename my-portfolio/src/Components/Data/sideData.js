@@ -117,4 +117,10 @@ export const contact = [
         btnlink:'https://www.facebook.com/marufibnehossain',
         canClick: ''
     },
+    {
+        id: 4,
+        btnname:'upwork',
+        btnlink:'https://www.upwork.com/freelancers/~01f59964e74d618400',
+        canClick:''
+    }
 ];

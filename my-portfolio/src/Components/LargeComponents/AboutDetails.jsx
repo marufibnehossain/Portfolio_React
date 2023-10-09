@@ -28,7 +28,7 @@ const AboutDetails = () => {
         </div>
         <div className='flex flex-col gap-12'>
           <SideNav sidehead = 'Digital capabilities' sidebtn= {digital} />
-          <SideNav sidehead = 'brand & collaboration' sidebtn= {clients} />
+          <SideNav sidehead = 'client & collaboration' sidebtn= {clients} />
         </div>
       </div>
     </section>

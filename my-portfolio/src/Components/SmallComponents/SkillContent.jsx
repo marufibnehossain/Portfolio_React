@@ -1,12 +1,13 @@
 import React from 'react';
-import { HiOutlineBadgeCheck } from 'react-icons/hi';
+// import { HiOutlineBadgeCheck } from 'react-icons/hi';
 
 
 const SkillContent = (props) => {
   return (
     <div className='grid grid-cols-5 font-nunito text-left my-1.5 text-[#d2d2d2]'>
-      <div className='col-span-1 flex justify-center md:text-lg text-base'>
-        <HiOutlineBadgeCheck className='font-base my-1 text-[#cca354]' />
+      <div className='col-span-1 flex justify-center py-1 md:text-xl text-lg text-[#cca354]'>
+        {props.icon}
+        {/* <HiOutlineBadgeCheck className='font-base my-1 text-[#cca354]' /> */}
       </div>
       <div className='col-span-4 text-black'>
           <h2 className='font-bold md:text-base text-sm mx-2'>{props.skill}</h2>

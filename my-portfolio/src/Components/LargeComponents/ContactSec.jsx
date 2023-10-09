@@ -16,8 +16,8 @@ const ContactSec = () => {
             <SideNav sidehead = "Let's Work together" sidebtn= {contact} />
         </div>
         <div className='flex flex-col gap-8 md:my-16 my-12'>
-          <SideNav sidehead = 'brand & collaboration' sidebtn= {experience} />
-          <Link to={'https://drive.google.com/file/d/1rQRYd_myG1-z2dosCRQh_j0dGnoXJGMd/view'} className='font-nunito font-bold text-[#272727] underline italic text-left underline-offset-4'>Download Resume</Link>
+          <SideNav sidehead = 'experience' sidebtn= {experience} />
+          <Link to={'https://drive.google.com/file/d/1rQRYd_myG1-z2dosCRQh_j0dGnoXJGMd/view'} target='_blank' className='font-nunito font-bold text-[#272727] underline italic text-left underline-offset-4'>Download Resume</Link>
         </div>
       </div>
     </section>
