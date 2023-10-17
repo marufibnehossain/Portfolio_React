@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.179bea1d.css",
+    "main.js": "/static/js/main.29e28ae8.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/web-full.png": "/static/media/web-full.3dbfff68d436827e6fab.png",
+    "static/media/arabic_pattern2.png": "/static/media/arabic_pattern2.5f41bf85cf188c1387a6.png",
+    "static/media/projects.png": "/static/media/projects.cdd5a1be4b35d5e676c5.png",
+    "static/media/fajrBg.png": "/static/media/fajrBg.f2c3d024427454a86e35.png",
+    "static/media/saWebFull.png": "/static/media/saWebFull.89cc2cc25674d4671266.png",
+    "static/media/source_code_720p.mp4": "/static/media/source_code_720p.733e41a86724ba124249.mp4",
+    "static/media/frontpage.png": "/static/media/frontpage.261c4c9a3b3d015bc363.png",
+    "static/media/design.png": "/static/media/design.6884ef0732321969a5f3.png",
+    "static/media/responsive.png": "/static/media/responsive.74ac15a60448b6718f7b.png",
+    "static/media/saPortfolio.png": "/static/media/saPortfolio.0d1fc660066585b37c94.png",
+    "static/media/tsdrs.png": "/static/media/tsdrs.dac4bb38406180b736eb.png",
+    "static/media/services.png": "/static/media/services.7ac22fddae3255652117.png",
+    "static/media/banner.jpg": "/static/media/banner.0ad555a282fd96162538.jpg",
+    "static/media/Sa-Logo.png": "/static/media/Sa-Logo.e0e5ccaf7d7a855bed62.png",
+    "static/media/sabanner.png": "/static/media/sabanner.a81030f5c5b7c3cea114.png",
+    "static/media/saIndustries.png": "/static/media/saIndustries.fb06ef762d2570111216.png",
+    "static/media/16857057987171.png": "/static/media/16857057987171.f34e96ee4f2fba080f05.png",
+    "static/media/Website.png": "/static/media/Website.2d6f6db0c4a8af5c5ef5.png",
+    "static/media/websiteR.png": "/static/media/websiteR.706f6760064380d05e13.png",
+    "static/media/Shipping-Containers.jpg": "/static/media/Shipping-Containers.9c11598586a8a5b3e182.jpg",
+    "static/media/websitemd.png": "/static/media/websitemd.77e9c38909596b1dd569.png",
+    "static/media/image.jpg": "/static/media/image.f6eea71e425ffe38198d.jpg",
+    "static/media/websiteRmd.png": "/static/media/websiteRmd.d9b58a63cdb09bb9a774.png",
+    "static/media/profile12.jpg": "/static/media/profile12.70712985ff784d9197b9.jpg",
+    "static/media/profile10.jpeg": "/static/media/profile10.e788879743013526314b.jpeg",
+    "static/media/springer-logo.png": "/static/media/springer-logo.0abf90ea0fb752ec78be.png",
+    "index.html": "/index.html",
+    "main.179bea1d.css.map": "/static/css/main.179bea1d.css.map",
+    "main.29e28ae8.js.map": "/static/js/main.29e28ae8.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.179bea1d.css",
+    "static/js/main.29e28ae8.js"
+  ]
+}
