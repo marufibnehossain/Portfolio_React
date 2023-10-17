@@ -7,6 +7,8 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     extend: {
@@ -45,6 +47,8 @@ module.exports = {
         { values: theme('textShadow') }
       )
     }),
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require("tw-elements/dist/plugin.cjs")
   ],
+  darkMode: "class"
 }

@@ -11,7 +11,9 @@ import AdvancedEngr from './Components/Pages/Case-Study/AdvancedEngr';
 import SalmanArefin from './Components/Pages/Case-Study/SalmanArefin';
 import Research from './Components/Pages/Research';
 import FajrAdvertising from './Components/Pages/Case-Study/FajrAdvertising';
-
+<script
+  type="text/javascript"
+  src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 
 function App() {
   return (

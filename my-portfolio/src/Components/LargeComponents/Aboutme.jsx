@@ -37,7 +37,7 @@ const Aboutme = () => {
                 </div>
             </div>
             <div className='md:text-left font-nunito'>
-                <p className='md:text-lg 2xs:text-base text-sm text-[#b8b8b8] font-semibold'>I thrive on turning ideas into dynamic and responsive web applications. My toolbox includes React.js, which I wield with finesse to breathe life into digital creations. But that's not all; I'm also your go-to WordPress whiz. Whether it's customizing the perfect theme, optimizing user journeys with Elementor, or setting up e-commerce magic with WooCommerce, I've got you covered.</p>
+                <p className='md:text-lg 2xs:text-base text-sm text-[#b8b8b8] font-semibold'>Hey there! 👋 I'm Maruf, a passionate computer science engineering graduate with a knack for crafting captivating web experiences. If there's one thing you should know about me, it's my unwavering enthusiasm for web development.<br/>I thrive on turning ideas into dynamic and responsive web applications. My toolbox includes React.js, which I wield with finesse to breathe life into digital creations. But that's not all; I'm also your go-to WordPress whiz.</p>
             </div>
             <div className='text-[#d2d2d2] sm:text-lg text-sm font-semibold max-md:flex max-md:justify-center'>
                 <Link to={'https://drive.google.com/file/d/1rQRYd_myG1-z2dosCRQh_j0dGnoXJGMd/view'} target={'_blank'} className='md:h-14 2xs:h-12 h-12 md:w-48 2xs:w-44 w-36 border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.2)] hover:bg-[#cca354] hover:text-[#181818] transition-colors duration-300 rounded-xl flex items-center justify-center'>Download CV<HiOutlineDocumentText className='ml-2 text-2xl font-bold' /></Link>
