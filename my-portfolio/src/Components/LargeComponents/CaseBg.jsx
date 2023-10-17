@@ -3,7 +3,7 @@ import React from 'react';
 const CaseBg = (props) => {
   return (
     <div className=''>
-      <div className='lg:w-[1000px] container md:h-[850px] mxs:h-[900px] h-[600px] mx-auto md:px-0 px-5 grid lg:grid-cols-2 gap-5 items-center py-16'>
+      <div className='lg:w-[1000px] container mx-auto md:px-0 px-5 lg:py-[170px] sm:py-28 py-16 grid lg:grid-cols-2 gap-5 items-center'>
         <div className='text-left'>
             <h2 className='font-teko font-medium md:text-4xl text-2xl md:leading-10 text-[#333333] uppercase w-8/12'>{props.bgheader}</h2>
             <p className='font-nunito font-normal lg:text-lg text- text-[#333333] mt-6'>{props.bgdetails}</p>

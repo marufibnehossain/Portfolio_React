@@ -17,14 +17,14 @@ const Brands = () => {
         />
         <img
           ref={ref}
-          className={`pt-5 ${inView ? 'animate-drop' : ''? 'opacity-100':'opacity-0'}`}
+          className={`2xs:pt-5 pt-2.5 2xs:h-[120px] h-20 w-full ${inView ? 'animate-drop' : ''? 'opacity-100':'opacity-0'}`}
           src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a51b07f22c423841fab_vertical-line.svg"
           alt=""
         />
       </div>
 
       <div>
-        <div className='font-nunito text-[#cca354] text-shadow-[0px_0px_15px_rgba(204,163,84,0.5)] text-sm mt-20'>
+        <div className='font-nunito text-[#cca354] text-shadow-[0px_0px_15px_rgba(204,163,84,0.5)] text-sm 2xs:mt-20 mt-14'>
           A few brands I've worked with
         </div>
         <img
@@ -38,13 +38,13 @@ const Brands = () => {
       <div className='w-full flex flex-col items-center'>
         <img
           ref={ref}
-          className={`mt-12 ${inView ? 'animate-[spin_1s_linear]' : '' ? 'opacity-100':'opacity-0'}`}
+          className={`2xs:mt-12 mt-8 ${inView ? 'animate-[spin_1s_linear]' : '' ? 'opacity-100':'opacity-0'}`}
           src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a118854430d1d59670a_x.svg"
           alt=""
         />
         <img
           ref={ref}
-          className={`pt-5 ${inView ? 'animate-drop' : ''? 'opacity-100':'opacity-0'}`}
+          className={`2xs:pt-5 pt-2.5 2xs:h-[120px] h-20 w-full ${inView ? 'animate-drop' : ''? 'opacity-100':'opacity-0'}`}
           src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a51b07f22c423841fab_vertical-line.svg"
           alt=""
         />

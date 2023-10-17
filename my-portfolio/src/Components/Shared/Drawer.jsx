@@ -14,10 +14,10 @@ const Drawer = ({ isOpen, setIsOpen }) => {
 
         <div className='uppercase h-[75%] flex items-center justify-center text-[#CCA354] font-teko font-normal text-4xl leading-none'>
           <ul>
-            <li className='my-3 transition-all duration-500'><Link to="/">Home</Link></li>
-            <li className='my-3 transition-all duration-500'><Link to="/About">About</Link></li>
-            <li className='my-3 transition-all duration-500'><Link to="/website-projects">Website Projects</Link></li>
-            <li className='my-3 transition-all duration-500'><Link to='/research-projects'>Research projects</Link></li>
+            <li className='my-3 transition-all duration-500'><Link to="/" onClick={() => {setIsOpen(false);}}>Home</Link></li>
+            <li className='my-3 transition-all duration-500'><Link to="/About" onClick={() => {setIsOpen(false);}}>About</Link></li>
+            <li className='my-3 transition-all duration-500'><Link to="/website-projects" onClick={() => {setIsOpen(false);}}>Website Projects</Link></li>
+            <li className='my-3 transition-all duration-500'><Link to='/research-projects' onClick={() => {setIsOpen(false);}}>Research projects</Link></li>
             {/* <li className='my-3 transition-all duration-500'><Link>Contact</Link></li> */}
           </ul>
         </div>

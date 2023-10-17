@@ -4,7 +4,7 @@ const CaseSections = (props) => {
   return (
     <div>
       <img src={props.image} alt={props.alt} />
-      <div className='lg:w-[1000px] container md:h-[600px] mxs:h-[500px] h-[570px] mx-auto md:px-0 px-5 flex items-center'>
+      <div className='lg:w-[1000px] container lg:py-[170px] sm:py-28 py-16 mx-auto md:px-0 px-5 flex items-center'>
         <div className="grid md:grid-cols-4">
           <div>
             <div className='flex items-center uppercase font-teko font-normal text-base leading-7 text-[#CCA354] h-10'><div className='bg-[#CCA354] md:mr-6 mr-3 md:w-16 w-6 md:h-1 h-[3px]'></div>{props.topic}</div>
