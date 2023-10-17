@@ -17,8 +17,8 @@ const Drawer = ({ isOpen, setIsOpen }) => {
             <li className='my-3 transition-all duration-500'><Link to="/">Home</Link></li>
             <li className='my-3 transition-all duration-500'><Link to="/About">About</Link></li>
             <li className='my-3 transition-all duration-500'><Link to="/website-projects">Website Projects</Link></li>
-            <li className='my-3 transition-all duration-500'><Link>Portfolio</Link></li>
-            <li className='my-3 transition-all duration-500'><Link>Contact</Link></li>
+            <li className='my-3 transition-all duration-500'><Link to='/research-projects'>Research projects</Link></li>
+            {/* <li className='my-3 transition-all duration-500'><Link>Contact</Link></li> */}
           </ul>
         </div>
 
