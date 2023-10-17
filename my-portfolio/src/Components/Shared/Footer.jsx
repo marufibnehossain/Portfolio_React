@@ -35,9 +35,9 @@ const Footer = () => {
       <div className='w-[94%] mx-auto md:flex justify-between border-t-2 border-[rgba(204,163,84,0.7)]'>
         <div className='text-sm text-white md:text-left md:mt-8 mt-7'>©{new Date().getFullYear()} Maruf Ibne Hossain. All Rights Reserved.</div>
         <div className='text-[#cca354] flex text-lg md:mt-8 mt-4 justify-center'>
-            <Link className='border-2 border-[#CCA354] hover:bg-[#CCA354] hover:text-[#181818] transition-all duration-300 p-2 rounded-full mx-1.5'><FaInstagram /></Link>
-            <Link className='border-2 border-[#CCA354] hover:bg-[#CCA354] hover:text-[#181818] transition-all duration-300 p-2 rounded-full mx-1.5'><RiTwitterXLine /></Link>
-            <Link className='border-2 border-[#CCA354] hover:bg-[#CCA354] hover:text-[#181818] transition-all duration-300 p-2 rounded-full mx-1.5'><FaYoutube /></Link>
+            <Link className='border-2 border-[#CCA354] hover:bg-[#CCA354] hover:text-[#181818] transition-all duration-300 p-2 rounded-full mx-1.5' target={'_blank'} aria-label="Visit my Instagram profile"><FaInstagram /></Link>
+            <Link className='border-2 border-[#CCA354] hover:bg-[#CCA354] hover:text-[#181818] transition-all duration-300 p-2 rounded-full mx-1.5' target={'_blank'} aria-label="Visit my X profile"><RiTwitterXLine /></Link>
+            <Link className='border-2 border-[#CCA354] hover:bg-[#CCA354] hover:text-[#181818] transition-all duration-300 p-2 rounded-full mx-1.5' target={'_blank'} aria-label="Visit my Youtube profile"><FaYoutube /></Link>
         </div>
       </div>
     </div>
