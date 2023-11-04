@@ -1,5 +1,5 @@
-import springerLogo from '../../assets/images/Research/TSDR/springer-logo.png';
-import tsdrBanner from '../../assets/images/Research/TSDR/tsdrs.png';
+import springerLogo from '../../assets/images/Research/TSDR/springer-logo.webp';
+import tsdrBanner from '../../assets/images/Research/TSDR/tsdrs.webp';
 
 
 export const researchData = [
