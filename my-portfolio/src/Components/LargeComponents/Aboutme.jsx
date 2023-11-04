@@ -22,17 +22,17 @@ const Aboutme = () => {
             <div className='grid grid-cols-3 gap-3 text-[#d2d2d2] font-nunito'>
                 <div className='border-2 border-[#cca354] rounded-xl flex flex-col 2xs:p-3 p-1.5 shadow-[0px_0px_15px_rgba(204,163,84,0.3)]'>
                     <FaRibbon className='md:text-2xl text-xl mx-auto mt-1 text-[#cca354]' />
-                    <h4 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Experience</h4>
+                    <h1 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Experience</h1>
                     <p className='text-xs font-light mb-1 text-[#cca354]'>1+ Years</p>
                 </div>
                 <div className='border-2 border-[#cca354] rounded-xl flex flex-col 2xs:p-3 p-1.5 shadow-[0px_0px_15px_rgba(204,163,84,0.3)]'>
                     <FaSuitcase className='md:text-2xl text-xl mx-auto mt-1 text-[#cca354]' />
-                    <h4 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Completed</h4>
+                    <h1 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Completed</h1>
                     <p className='text-xs font-light mb-1 text-[#cca354]'>10+ Projects</p>
                 </div>
                 <div className='border-2 border-[#cca354] rounded-xl flex flex-col 2xs:p-3 p-1.5 shadow-[0px_0px_15px_rgba(204,163,84,0.3)]'>
                     <BiSupport className='md:text-2xl text-xl mx-auto mt-1 text-[#cca354]' />
-                    <h4 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Support</h4>
+                    <h1 className='font-medium sm:text-base 3xs:text-sm text-[11px] 2xs:my-1 my-0.5'>Support</h1>
                     <p className='text-xs font-light mb-1 text-[#cca354]'>Online 24/7</p>
                 </div>
             </div>

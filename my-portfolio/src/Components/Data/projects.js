@@ -1,9 +1,13 @@
 import containers from '../../assets/images/Advanced/Shipping-Containers.jpg';
-import smileBanner from '../../assets/images/SmileTissue/banner.jpg';
-import salmanLogo from '../../assets/images/SalmanArefin/Sa-Logo.png';
+import smileBanner from '../../assets/images/SmileTissue/banner.webp';
+import smileLogo from '../../assets/images/SmileTissue/smilelogo.png';
+import salmanLogo from '../../assets/images/SalmanArefin/Sa-Logo.webp';
 import saBanner from '../../assets/images/SalmanArefin/sabanner.png';
 import fajrLogo from '../../assets/images/FajrAdvertising/Fajr-Advertising-Logo-1.png';
-import fajrBanner from '../../assets/images/FajrAdvertising/fajrBg.png';
+import fajrBanner from '../../assets/images/FajrAdvertising/fajrBg.webp';
+import advancedLogo from '../../assets/images/Advanced/logo-advanced.webp';
+import hakkaniLogo from '../../assets/images/Hakkani/hakkanilogo.png';
+import hakkaniBg from '../../assets/images/Hakkani/hakkaniBG.webp';
 
 
 export const projectsData = [
@@ -11,7 +15,7 @@ export const projectsData = [
         id: 1,
         image: fajrBanner,
         logoimg: fajrLogo,
-        altlogo:"Rivian",
+        altlogo:"Fajr Advertising",
         role: "Web Developer",
         project: "Illuminating Success through Services and Projects",
         intro: "The Fajr Advertising website is a digital portal that illuminates the remarkable journey of Fajr Advertising, which I built as the web developer of AlTijaarat.",
@@ -28,7 +32,7 @@ export const projectsData = [
     {
         id: 2,
         image: containers,
-        logoimg: "https://advancedengineering.com.bd/wp-content/uploads/2023/05/cropped-cropped-logo-advanced-1-1-2.png",
+        logoimg: advancedLogo,
         altlogo: "advanced engineering",
         role: "Web Developer",
         project: "Transforming the Online Presence of Advanced Engineering",
@@ -45,8 +49,8 @@ export const projectsData = [
     },
     {
         id: 3,
-        image: "https://www.aboutsmartcities.com/wp-content/uploads/2023/02/ai.webp",
-        logoimg: "https://hakkanigroup.net/wp-content/uploads/2023/03/Untitled-1-removebg-preview_c.png",
+        image: hakkaniBg,
+        logoimg: hakkaniLogo,
         altlogo: "Hakkani Group",
         role: "Web Developer",
         project: "When Hakkani group needs a website.",
@@ -64,7 +68,7 @@ export const projectsData = [
     {
         id: 4,
         image: smileBanner,
-        logoimg: "https://smile.hakkanigroup.net/images/logo.png",
+        logoimg: smileLogo,
         altlogo: "Smile tissue",
         role: "Web Developer",
         project: "developing a single page website for Smile tissue.",
