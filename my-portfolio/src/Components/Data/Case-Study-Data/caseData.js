@@ -1,10 +1,14 @@
+import advancedLogo from '../../assets/images/Advanced/logo-advanced.webp';
 import aebanner from '../../../assets/images/Advanced/Shipping-Containers.jpg'
 import aewebFull from '../../../assets/images/Hakkani/web-full.png';
 import aedesign from '../../../assets/images/Hakkani/design.png';
 import aemobile from '../../../assets/images/Hakkani/responsive.png';
+import hakkaniLogo from '../../assets/images/Hakkani/hakkanilogo.png';
+import hakkaniBg from '../../assets/images/Hakkani/hakkaniBG.webp';
 import hakkaniWebFull from '../../../assets/images/Hakkani/web-full.png';
 import hakkaniDesign from '../../../assets/images/Hakkani/design.png';
 import hakkaniMobile from '../../../assets/images/Hakkani/responsive.png';
+import smileLogo from '../../assets/images/SmileTissue/smilelogo.png';
 import smileWebFull from '../../../assets/images/SmileTissue/web-full.png';
 import smileMobile from '../../../assets/images/SmileTissue/responsive.png';
 import smileBanner from '../../../assets/images/SmileTissue/banner.jpg';
@@ -27,7 +31,7 @@ const caseData = [
         // Advanced Engineering
         id: 1,
         bannerimage : aebanner,
-        logoimg : "https://advancedengineering.com.bd/wp-content/uploads/2023/05/cropped-cropped-logo-advanced-1-1-2.png",
+        logoimg : advancedLogo,
         project:"Transforming the Online Presence of Advanced Engineering",
         summary:"I was lucky enough to work with the good people of Advanced Engineerins to develop a website for there company on behalf of Tech Bucket.",
         responsibilities:"Web Development",
@@ -62,8 +66,8 @@ const caseData = [
     {
         // Hakkani Group
         id: 2,
-        bannerimage : "https://www.aboutsmartcities.com/wp-content/uploads/2023/02/ai.webp",
-        logoimg : "https://hakkanigroup.net/wp-content/uploads/2023/03/Untitled-1-removebg-preview_c.png",
+        bannerimage : hakkaniBg,
+        logoimg : hakkaniLogo,
         project:"developing a website for Hakkani group",
         summary:"I was lucky enough to work with the good people at Hakkani group to develop a website for there group of company on behalf of Tech Bucket.",
         responsibilities:"Web Development",
@@ -99,7 +103,7 @@ const caseData = [
         // Smile Tissue
         id:3,
         bannerimage : smileBanner,
-        logoimg : "https://smile.hakkanigroup.net/images/logo.png",
+        logoimg : smileLogo,
         project:"developing a single page website for Smile tissue.",
         summary:"I designed & developed the frontend of the website.",
         responsibilities:"Front-End Development",
