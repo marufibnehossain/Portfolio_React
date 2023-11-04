@@ -2,7 +2,7 @@ import containers from '../../assets/images/Advanced/Shipping-Containers.jpg';
 import smileBanner from '../../assets/images/SmileTissue/banner.webp';
 import smileLogo from '../../assets/images/SmileTissue/smilelogo.png';
 import salmanLogo from '../../assets/images/SalmanArefin/Sa-Logo.webp';
-import saBanner from '../../assets/images/SalmanArefin/sabanner.png';
+import saBanner from '../../assets/images/SalmanArefin/sabanner.webp';
 import fajrLogo from '../../assets/images/FajrAdvertising/Fajr-Advertising-Logo-1.png';
 import fajrBanner from '../../assets/images/FajrAdvertising/fajrBg.webp';
 import advancedLogo from '../../assets/images/Advanced/logo-advanced.webp';

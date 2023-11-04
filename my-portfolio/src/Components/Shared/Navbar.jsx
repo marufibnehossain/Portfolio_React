@@ -1,7 +1,7 @@
 import React from 'react';
 import {  Link } from 'react-router-dom';
 import { RiMenu3Fill } from 'react-icons/ri';
-import logo from '../../assets/images/siteLogo.webp';
+import logo from '../../assets/images/siteLogo1.png';
 
 const Navbar = ({ setIsOpen }) => {
   return (
