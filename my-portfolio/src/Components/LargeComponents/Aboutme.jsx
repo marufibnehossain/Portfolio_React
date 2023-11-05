@@ -4,7 +4,7 @@ import { BiSupport  } from 'react-icons/bi';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import Heading from '../SmallComponents/Heading';
-import profile2 from '../../assets/images/profile/profile12.jpg'
+import profile2 from '../../assets/images/profile/profile12.webp';
 
 const Aboutme = () => {
   return (

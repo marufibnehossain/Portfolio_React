@@ -2,7 +2,7 @@ import React from 'react';
 // import { HiOutlineDocumentText } from 'react-icons/hi';
 // import { Link } from 'react-router-dom';
 import Heading from '../SmallComponents/Heading';
-import profile2 from '../../assets/images/profile/profile12.jpg'
+import profile2 from '../../assets/images/profile/profile12.webp';
 import SideNav from '../SmallComponents/SideNav';
 import { digital, clients } from '../Data/sideData';
 

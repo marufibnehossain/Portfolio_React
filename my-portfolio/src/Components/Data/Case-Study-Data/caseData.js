@@ -1,5 +1,5 @@
 import advancedLogo from '../../../assets/images/Advanced/logo-advanced.webp';
-import aebanner from '../../../assets/images/Advanced/Shipping-Containers.jpg'
+import aebanner from '../../../assets/images/Advanced/Shipping-Containers.webp'
 import aewebFull from '../../../assets/images/Hakkani/web-full.png';
 import aedesign from '../../../assets/images/Hakkani/design.png';
 import aemobile from '../../../assets/images/Hakkani/responsive.png';
@@ -8,7 +8,7 @@ import hakkaniBg from '../../../assets/images/Hakkani/hakkaniBG.webp';
 import hakkaniWebFull from '../../../assets/images/Hakkani/web-full.png';
 import hakkaniDesign from '../../../assets/images/Hakkani/design.png';
 import hakkaniMobile from '../../../assets/images/Hakkani/responsive.png';
-import smileLogo from '../../../assets/images/SmileTissue/smilelogo.png';
+import smileLogo from '../../../assets/images/SmileTissue/smilelogo.webp';
 import smileWebFull from '../../../assets/images/SmileTissue/web-full.png';
 import smileMobile from '../../../assets/images/SmileTissue/responsive.png';
 import smileBanner from '../../../assets/images/SmileTissue/banner.jpg';
