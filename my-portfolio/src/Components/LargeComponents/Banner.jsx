@@ -1,18 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub,FaLinkedin,FaResearchgate,FaFacebook } from 'react-icons/fa';
 import profile from '../../assets/images/profile/profile10.webp';
 import horizontalLine from '../../assets/images/horizontal-line.svg';
 
 const Banner = () => {
-  // Preload the image
-  const preloadImage = () => {
-    const img = new Image();
-    img.src = profile;
-  };
+  useEffect(() => {
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.href = profile; // Replace with the actual image path
+    link.as = 'image';
 
-  // Call the preloadImage function
-  
+    document.head.appendChild(link);
+
+    // Clean up the link element when the component unmounts
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
   return (
     <div className='lg:w-[1000px] container mx-auto md:px-0 px-5 lg:h-screen sm:h-[900px] h-screen flex items-center relative'>
       <div className='lg:w-9/12 md:w-10/12 text-white text-left z-20 absolute mt-24 xs:mx-0 mx-3'>
@@ -27,7 +32,7 @@ const Banner = () => {
         </div>
       </div>
       <div className='lg:w-[520px] xl:h-[750px] lg:h-[720px] md:w-[450px] sm:w-[500px] xs:w-[520px] xs:h-[777px] h-full -z-10 absolute lg:bottom-4 lg:-right-10 right-0 bottom-0 overflow-hidden border border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.5)]'>
-        <img className='object-cover object-center h-full w-full' src={preloadImage()} alt="profile-img" />
+        <img className='object-cover object-center h-full w-full' src={profile} alt="profile-img" />
       </div>
     </div>
   )
