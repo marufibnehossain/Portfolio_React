@@ -1,6 +1,6 @@
 import containers from '../../assets/images/Advanced/Shipping-Containers.webp';
 import smileBanner from '../../assets/images/SmileTissue/banner.webp';
-import smileLogo from '../../assets/images/SmileTissue/smilelogo.webp';
+import smileLogo from '../../assets/images/SmileTissue/smilelogo2.png';
 import salmanLogo from '../../assets/images/SalmanArefin/Sa-Logo.webp';
 import saBanner from '../../assets/images/SalmanArefin/sabanner.webp';
 import fajrLogo from '../../assets/images/FajrAdvertising/Fajr-Advertising-Logo-1.png';
