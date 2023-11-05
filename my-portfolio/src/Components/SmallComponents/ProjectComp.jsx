@@ -1,21 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProjectComp = (props) => {
-  useEffect((props) => {
-    const link = document.createElement('link');
-    link.rel = 'preload';
-    link.href = props.image; // Replace with the actual image path
-    link.as = 'image';
-
-    document.head.appendChild(link);
-
-    // Clean up the link element when the component unmounts
-    return () => {
-      document.head.removeChild(link);
-    };
-  }, []);
-
   const customStyle = {
     backgroundColor: ""
   }
