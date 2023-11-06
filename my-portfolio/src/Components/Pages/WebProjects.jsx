@@ -4,8 +4,8 @@ import Heading from '../SmallComponents/Heading';
 import ProjectComp from '../SmallComponents/ProjectComp';
 import { projectsData } from '../Data/projects';
 import { projectsNav } from '../Data/projects';
-import webImg from '../../assets/images/Outline-text/Website.png';
-import webImgmd from '../../assets/images/Outline-text/websitemd.png';
+import webImg from '../../assets/images/Outline-text/Website.webp';
+import webImgmd from '../../assets/images/Outline-text/websitemd.webp';
 
 function portfolio(works) {
   return <ProjectComp 

@@ -4,8 +4,8 @@ import Heading from '../SmallComponents/Heading';
 import ProjectComp from '../SmallComponents/ProjectComp';
 import { researchData } from '../Data/research';
 import { researchNav } from '../Data/research';
-import webImgR from '../../assets/images/Outline-text/websiteR.png';
-import webImgRmd from '../../assets/images/Outline-text/websiteRmd.png';
+import webImgR from '../../assets/images/Outline-text/websiteR.webp';
+import webImgRmd from '../../assets/images/Outline-text/websiteRmd.webp';
 
 function portfolio(works) {
   return <ProjectComp 
