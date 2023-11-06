@@ -13,7 +13,7 @@ const Brands = () => {
       <div className='w-full flex flex-col items-center'>
         <img
           ref={ref}
-          className={`mt-12 ${inView ? 'animate-[spin_1s_linear]' : ''? 'opacity-100':'opacity-0'}`}
+          className={`mt-12 w-3 h-3 ${inView ? 'animate-[spin_1s_linear]' : ''? 'opacity-100':'opacity-0'}`}
           src={x}
           alt=""
         />
@@ -40,7 +40,7 @@ const Brands = () => {
       <div className='w-full flex flex-col items-center'>
         <img
           ref={ref}
-          className={`2xs:mt-12 mt-8 ${inView ? 'animate-[spin_1s_linear]' : '' ? 'opacity-100':'opacity-0'}`}
+          className={`2xs:mt-12 mt-8 w-3 h-3 ${inView ? 'animate-[spin_1s_linear]' : '' ? 'opacity-100':'opacity-0'}`}
           src={x}
           alt=""
         />

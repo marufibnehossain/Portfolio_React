@@ -1,23 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub,FaLinkedin,FaResearchgate,FaFacebook } from 'react-icons/fa';
 import profile from '../../assets/images/profile/profile10.webp';
 import horizontalLine from '../../assets/images/horizontal-line.svg';
 
 const Banner = () => {
-  // useEffect(() => {
-  //   const link = document.createElement('link');
-  //   link.rel = 'preload';
-  //   link.href = profile; // Replace with the actual image path
-  //   link.as = 'image';
+  useEffect(() => {
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.href = profile; // Replace with the actual image path
+    link.as = 'image';
 
-  //   document.head.appendChild(link);
+    document.head.appendChild(link);
 
-  //   // Clean up the link element when the component unmounts
-  //   return () => {
-  //     document.head.removeChild(link);
-  //   };
-  // }, []);
+    // Clean up the link element when the component unmounts
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
   return (
     <div className='lg:w-[1000px] container mx-auto md:px-0 px-5 lg:h-screen sm:h-[900px] h-screen flex items-center relative'>
       <div className='lg:w-9/12 md:w-10/12 text-white text-left z-20 absolute mt-24 xs:mx-0 mx-3'>
