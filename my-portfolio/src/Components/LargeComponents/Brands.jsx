@@ -29,7 +29,7 @@ const Brands = () => {
         </div>
         <img
           ref={ref}
-          className='mx-auto my-11'
+          className='mx-auto my-11 md:w-9/12 w-full md:h-full h-full'
           src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5f49512742ae0d3fa60de890_kyson-logos-1.png"
           alt=""
         />
