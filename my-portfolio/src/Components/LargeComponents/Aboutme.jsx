@@ -16,7 +16,7 @@ const Aboutme = () => {
       />
       <div className='grid md:grid-cols-2 grid-cols-1 gap-10'>
         <div className='md:w-5/6 sm:w-4/6 w-10/12 h-auto overflow-hidden rounded-3xl max-md:mx-auto border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.5)]'>
-            <img className='h-full w-auto overflow-hidden object-cover' src={profile2} alt="" />
+            <img className='h-full w-full overflow-hidden object-cover' src={profile2} alt="" />
         </div>
         <div className='flex flex-col justify-between gap-6'>
             <div className='grid grid-cols-3 gap-3 text-[#d2d2d2] font-nunito'>
