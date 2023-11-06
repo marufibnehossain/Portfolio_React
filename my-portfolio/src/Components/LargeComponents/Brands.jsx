@@ -1,5 +1,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
+import x from "../../assets/images/x.svg";
+import verticalLine from "../../assets/images/vertical-line.svg";
 
 const Brands = () => {
   const [ref, inView] = useInView({
@@ -12,13 +14,13 @@ const Brands = () => {
         <img
           ref={ref}
           className={`mt-12 ${inView ? 'animate-[spin_1s_linear]' : ''? 'opacity-100':'opacity-0'}`}
-          src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a118854430d1d59670a_x.svg"
+          src={x}
           alt=""
         />
         <img
           ref={ref}
           className={`2xs:pt-5 pt-2.5 2xs:h-[120px] h-20 w-full ${inView ? 'animate-drop' : ''? 'opacity-100':'opacity-0'}`}
-          src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a51b07f22c423841fab_vertical-line.svg"
+          src={verticalLine}
           alt=""
         />
       </div>
@@ -39,13 +41,13 @@ const Brands = () => {
         <img
           ref={ref}
           className={`2xs:mt-12 mt-8 ${inView ? 'animate-[spin_1s_linear]' : '' ? 'opacity-100':'opacity-0'}`}
-          src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a118854430d1d59670a_x.svg"
+          src={x}
           alt=""
         />
         <img
           ref={ref}
           className={`2xs:pt-5 pt-2.5 2xs:h-[120px] h-20 w-full ${inView ? 'animate-drop' : ''? 'opacity-100':'opacity-0'}`}
-          src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b913a51b07f22c423841fab_vertical-line.svg"
+          src={verticalLine}
           alt=""
         />
       </div>

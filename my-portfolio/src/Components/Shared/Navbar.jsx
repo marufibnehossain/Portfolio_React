@@ -9,7 +9,7 @@ const Navbar = ({ setIsOpen }) => {
     <nav className='w-full bg-[#181818] fixed top-0 z-50'>
       <div className='lg:w-[1000px] container mx-auto mxs:py-4 py-5 flex justify-between'>
         <Link className='flex items-center' to="/">
-            <img className='lg:w-16 sm:w-14 w-12 h-auto' src={logo} alt="" />
+            <img className='lg:w-16 sm:w-14 w-12 h-full' src={logo} alt="" />
             <div className='sm:text-sm text-xs font-medium leading-tight font-nunito text-[#C89B1E] mt-3'>Maruf Ibne<br/>Hossain</div>
         </Link>
         
