@@ -48,7 +48,8 @@ module.exports = {
       )
     }),
     require('flowbite/plugin'),
-    require("tw-elements/dist/plugin.cjs")
+    require("tw-elements/dist/plugin.cjs"),
+    require("daisyui")
   ],
   darkMode: "class"
 }
