@@ -13,7 +13,7 @@ const ExperienceCard = ({exp}) => {
     setModalIsOpen(false);
   };
   return (
-    <div className='w-full rounded-[10px] border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.1)] md:py-3 md:px-4 p-[10px] flex flex-col md:gap-3 gap-2 transition-all duration-300 ease-in-out justify-between relative overflow-hidden hover:shadow-[0px_0px_20px_rgba(204,163,84,0.2)] sm:hover:translate-y-[-5px] group'>
+    <div className='w-full rounded-[10px] border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.1)] md:py-3 md:px-4 p-[10px] flex flex-col md:gap-3 gap-2 transition-all duration-300 ease-in-out justify-between relative overflow-hidden hover:shadow-[0px_0px_20px_rgba(204,163,84,0.2)] sm:hover:translate-y-[-5px] group text-black'>
             <div className='w-full flex gap-3'>
                 <img className='md:h-[50px] sm:h-10 h-6 mt-1 rounded-[10px] sm:block hidden' src={exp.img} alt='abc' />
                 <div className='w-full flex flex-col text-left sm:gap-0 gap-1.5'>

@@ -2,7 +2,7 @@ import React from 'react';
 // import { HiOutlineDocumentText } from 'react-icons/hi';
 // import { Link } from 'react-router-dom';
 import Heading from '../SmallComponents/Heading';
-import profile2 from '../../assets/images/profile/profile12.webp';
+import profile2 from '../../assets/images/profile/IMG_20221120_140054.jpg';
 import SideNav from '../SmallComponents/SideNav';
 import { digital, clients } from '../Data/sideData';
 
@@ -15,8 +15,11 @@ const AboutDetails = () => {
         sub= "My Introduction"
       />
       <div className='grid md:grid-cols-3 grid-cols-1 gap-10'>
-        <div className='w-full lg:h-[350px] md:h-[400px] h-auto overflow-hidden max-md:mx-auto border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.5)]'>
-            <img className='h-full w-full overflow-hidden object-cover' src={profile2} alt="" />
+        <div>
+          <div className='w-auto lg:h-[400px] md:h-[400px] h-auto overflow-hidden max-md:mx-auto border-2 border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.5)]'>
+              <img className='h-full w-full overflow-hidden object-cover' src={profile2} alt="" />
+          </div>
+          <p className='mt-5 text-xs italic text-[#949494] font-medium font-nunito'>I know this is not the best picture but I'm rather proud of this moment in my personal history so in the bio it goes.</p>
         </div>
         <div className='md:text-left gap-6'>
           <p className='md:text-base 2xs:text-base text-sm font-nunito text-[#000000] font-medium'>Hey there! 👋 I'm Maruf, a passionate computer science engineering graduate with a knack for crafting captivating web experiences. If there's one thing you should know about me, it's my unwavering enthusiasm for web development. <br/><br/>

@@ -57,7 +57,7 @@ const Education = () => {
   }
   return (
     <section id='experience' className="lg:w-[1000px] container mx-auto md:px-0 3xs:px-5 px-3 lg:mt-0 lg:pb-10 md:pb-16 pb-10 my-10 text-left font-nunito">
-      <Heading HeadColor="black" heading= "Qualification" sub="My personal journey" />
+      <Heading HeadColor="text-black" heading= "Qualification" sub="My personal journey" />
 
       <div className='flex justify-center font-bold'>
           <div className={toggleState === 1 ? 'md:text-lg flex items-center gap-2 mx-4 cursor-pointer hover:text-[#cca354] text-[#cca354]' : 'text-[#000000] md:text-lg flex items-center gap-2 mx-4 hover:text-[#cca354] cursor-pointer'} onClick={() => toggleTab(1)}><SlGraduation className='text-xl' />Education</div>
@@ -72,7 +72,7 @@ const Education = () => {
               <Timeline.Point className='' icon={FaRegCircle} />
               {/* {index !== experiences.length - 1 && <Timeline.Point className="!bg-transparent" />} */}
               <Timeline.Content>
-                <div className='timeline-box'><QualityCard quality={education} /></div>
+                <div className='timeline-box bg-white border-none'><QualityCard quality={education} /></div>
               </Timeline.Content>
             </Timeline.Item>
             ))}
@@ -88,7 +88,7 @@ const Education = () => {
               <Timeline.Point className='' icon={FaRegCircle} />
               {/* {index !== experiences.length - 1 && <Timeline.Point className="!bg-transparent" />} */}
               <Timeline.Content>
-                <div className='timeline-box'><QualityCard quality={course} /></div>
+                <div className='timeline-box bg-white border-none'><QualityCard quality={course} /></div>
               </Timeline.Content>
             </Timeline.Item>
             ))}
