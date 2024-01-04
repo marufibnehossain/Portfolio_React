@@ -15,7 +15,7 @@ const customTheme = {
     root: {
       direction: {
         horizontal: 'items-base sm:flex',
-        vertical: 'relative border-l border-[#cca354] dark:border-gray-700',
+        vertical: 'relative border-l border-[#cca354]',
       },
     },
     item: {
@@ -27,21 +27,21 @@ const customTheme = {
         root: {
           base: 'mt-3 sm:pr-8',
         },
-        body: 'mb-4 text-base font-normal text-gray-500 dark:text-gray-400',
-        time: 'mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500',
-        title: 'text-lg font-semibold text-gray-900 dark:text-white',
+        body: 'mb-4 text-base font-normal text-gray-500',
+        time: 'mb-1 text-sm font-normal leading-none text-gray-400',
+        title: 'text-lg font-semibold text-gray-900',
       },
       point: {
         horizontal: 'flex items-center',
-        line: 'hidden h-0.5 w-full bg-gray-900 dark:bg-gray-700 sm:flex',
+        line: 'hidden h-0.5 w-full bg-gray-900',
         marker: {
           base: {
-            horizontal: 'absolute -left-1.5 h-3 w-3 rounded-full border border-white bg-gray-900 dark:border-gray-900 dark:bg-gray-700',
-            vertical: 'absolute -left-1.5 rounded-full border border-white bg-[#F1F1F1] dark:border-gray-900 dark:bg-gray-700',
+            horizontal: 'absolute -left-1.5 h-3 w-3 rounded-full border border-white bg-gray-900',
+            vertical: 'absolute -left-1.5 rounded-full border border-white bg-[#F1F1F1]',
           },
           icon: {
-            base: 'h-3 w-3 text-[#cca354] drop-shadow-[0px_0px_5px_rgba(204,163,84,0.7)] dark:text-cyan-300',
-            wrapper: 'absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-[#f1f1f1] dark:bg-cyan-900 dark:ring-gray-900',
+            base: 'h-3 w-3 text-[#cca354] drop-shadow-[0px_0px_5px_rgba(204,163,84,0.7)]',
+            wrapper: 'absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-[#f1f1f1]',
           },
         },
         vertical: '',
