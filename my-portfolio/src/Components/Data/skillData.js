@@ -2,7 +2,8 @@ import { HiOutlineBadgeCheck } from 'react-icons/hi';
 import { ImHtmlFive } from 'react-icons/im';
 import { RiReactjsLine } from 'react-icons/ri';
 import { TbBrandNodejs, TbApi } from 'react-icons/tb';
-import { SiCss3, SiBootstrap, SiTailwindcss, SiJavascript, SiJquery, SiGithub, SiExpress } from 'react-icons/si';
+import { SiCss3, SiBootstrap, SiTailwindcss, SiJavascript, SiJquery, SiGithub, SiExpress, SiElementor, SiWoocommerce } from 'react-icons/si';
+import { FaWordpress } from "react-icons/fa";
 
 const skillData = [
     {
@@ -87,18 +88,41 @@ const skillData = [
                 skill: "APIs",
                 level: "Basic"
             },
+        ]
+    },{
+        id:2,
+        title: "WordPress Development",
+        SkillNames:[
+            {
+                id: 1,
+                icon: <FaWordpress />,
+                skill: "WordPress",
+                level: "Advanced"
+            },
+            {
+                id: 2,
+                icon: <SiElementor />,
+                skill: "Elementor",
+                level: "Advanced"
+            },
+            {
+                id: 3,
+                icon: <SiWoocommerce />,
+                skill: "Woocommerce",
+                level: "Advanced"
+            },
+            {
+                id: 4,
+                icon: <HiOutlineBadgeCheck />,
+                skill: "Buddyx",
+                level: "Intermediate"
+            },
             {
                 id: 5,
                 icon: <HiOutlineBadgeCheck />,
-                skill: "Bootstrap",
-                level: "Basic"
+                skill: "Theme Customization",
+                level: "Advanced"
             },
-            {
-                id: 6,
-                icon: <HiOutlineBadgeCheck />,
-                skill: "TailwindCSS",
-                level: "Basic"
-            }
         ]
     }
 ]

@@ -64,13 +64,13 @@ const Education = () => {
           <div className={toggleState === 2 ? 'md:text-lg flex items-center gap-2 mx-4 cursor-pointer hover:text-[#cca354] text-[#cca354]' : 'text-[#000000] md:text-lg flex items-center gap-2 mx-4 hover:text-[#cca354] cursor-pointer'} onClick={() => toggleTab(2)}><BsJournalBookmarkFill className='text-xl' />Courses</div>
       </div>
 
-      <div className={toggleState === 1 ? 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5'}>
+      <div className={toggleState === 2 ? 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5'}>
         <Flowbite theme={{ theme: customTheme }}>
           <Timeline className='md:w-[700px] w-[350px] mx-auto'>
             {educations.map((education, index) => (
             <Timeline.Item className='' key={index}>
               <Timeline.Point className='' icon={FaRegCircle} />
-              {/* {index !== experiences.length - 1 && <Timeline.Point className="!bg-transparent" />} */}
+              {index !== educations.length - 1 && <Timeline.Point className="!bg-transparent" />}
               <Timeline.Content>
                 <div className='timeline-box bg-white border-none'><QualityCard quality={education} /></div>
               </Timeline.Content>
@@ -80,13 +80,13 @@ const Education = () => {
         </Flowbite>
       </div>
 
-      <div className={toggleState === 2 ? 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5'}>
+      <div className={toggleState === 1 ? 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5'}>
         <Flowbite theme={{ theme: customTheme }}>
           <Timeline className='md:w-[700px] sm:w-[350px] w-11/12 mx-auto'>
             {courses.map((course, index) => (
             <Timeline.Item className='' key={index}>
               <Timeline.Point className='' icon={FaRegCircle} />
-              {/* {index !== experiences.length - 1 && <Timeline.Point className="!bg-transparent" />} */}
+              {index !== courses.length - 1 && <Timeline.Point className="!bg-transparent" />}
               <Timeline.Content>
                 <div className='timeline-box bg-white border-none'><QualityCard quality={course} /></div>
               </Timeline.Content>

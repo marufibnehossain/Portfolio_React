@@ -2,6 +2,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import x from "../../assets/images/x.svg";
 import verticalLine from "../../assets/images/vertical-line.svg";
+import brands from '../../assets/images/brands.png';
 
 const Brands = () => {
   const [ref, inView] = useInView({
@@ -32,7 +33,7 @@ const Brands = () => {
         <img
           ref={ref}
           className='mx-auto my-11 md:w-9/12 w-full md:h-full h-full'
-          src="https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5f49512742ae0d3fa60de890_kyson-logos-1.png"
+          src= {brands}
           alt=""
         />
       </div>
