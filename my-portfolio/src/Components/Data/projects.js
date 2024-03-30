@@ -8,7 +8,7 @@ import fajrBanner from '../../assets/images/FajrAdvertising/fajrBg.webp';
 import advancedLogo from '../../assets/images/Advanced/logo-advanced.webp';
 import hakkaniLogo from '../../assets/images/Hakkani/hakkanilogo.png';
 import hakkaniBg from '../../assets/images/Hakkani/hakkaniBG.webp';
-import igpBanner from '../../assets/images/Edu-IGP/igp-cover.png';
+import igpBanner from '../../assets/images/Edu-IGP/igp-cover.jpg';
 import fajrlLogo from '../../assets/images/fajr-lifestyle/Fajr-lifestyle-logo.png';
 import fajrlBanner from '../../assets/images/fajr-lifestyle/fajrl-banner.jpg';
 import atomyBanner from '../../assets/images/Atomy-BD/atomy-banner.png';
@@ -26,7 +26,7 @@ export const projectsData = [
         intro: "I developed a captivating website for EduIGP. The website showcased their platform members.",
         buttonw: "No case study",
         buttonb: "Visit Website",
-        textclr: "black",
+        textclr: "white",
         visiblewht: "inline-block",
         visibleblk: "inline-block",
         caselink: "",
@@ -62,7 +62,7 @@ export const projectsData = [
         intro: "The Atomy-Bangladesh website is a Woocommerce website that sells Atomy skin products.",
         buttonw: "No CASE STUDY",
         buttonb: "Visit Website",
-        textclr: "",
+        textclr: "black",
         visiblewht: "inline-block",
         visibleblk: "inline-block",
         caselink: "",
