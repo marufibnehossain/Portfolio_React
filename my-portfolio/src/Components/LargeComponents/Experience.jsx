@@ -10,7 +10,7 @@ const Experience = () => {
     <section className='lg:w-[1000px] container mx-auto md:px-0 px-5 lg:mt-0 lg:mb-10 md:mb-16 my-10 flex flex-col'>
       <Heading HeadColor="text-black" heading= "Experience" sub="My professional journey" />
       <ul className="timeline timeline-vertical md:block">
-        {experiences.map((experience, index) => (
+        {experiences.toReversed().map((experience, index) => (
           <React.Fragment key={index}>
             {index % 2 === 0 ? (
                 <li>

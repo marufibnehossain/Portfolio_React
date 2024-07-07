@@ -2,7 +2,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import x from "../../assets/images/x.svg";
 import verticalLine from "../../assets/images/vertical-line.svg";
-import brands from '../../assets/images/brands.png';
+import brands from '../../assets/images/brands1.png';
 
 const Brands = () => {
   const [ref, inView] = useInView({

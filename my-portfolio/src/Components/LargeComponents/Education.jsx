@@ -67,7 +67,7 @@ const Education = () => {
       <div className={toggleState === 2 ? 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5'}>
         <Flowbite theme={{ theme: customTheme }}>
           <Timeline className='md:w-[700px] w-[350px] mx-auto'>
-            {educations.map((education, index) => (
+            {educations.toReversed().map((education, index) => (
             <Timeline.Item className='' key={index}>
               <Timeline.Point className='' icon={FaRegCircle} />
               {index !== educations.length - 1 && <Timeline.Point className="!bg-transparent" />}
@@ -83,7 +83,7 @@ const Education = () => {
       <div className={toggleState === 1 ? 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5 active:block hidden' : 'lg:w-[70%] md:w-[90%] 3xs:w-11/12 w-full mx-auto my-5'}>
         <Flowbite theme={{ theme: customTheme }}>
           <Timeline className='md:w-[700px] sm:w-[350px] w-11/12 mx-auto'>
-            {courses.map((course, index) => (
+            {courses.toReversed().map((course, index) => (
             <Timeline.Item className='' key={index}>
               <Timeline.Point className='' icon={FaRegCircle} />
               {index !== courses.length - 1 && <Timeline.Point className="!bg-transparent" />}

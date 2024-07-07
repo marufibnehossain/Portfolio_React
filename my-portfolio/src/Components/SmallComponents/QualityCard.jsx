@@ -39,7 +39,7 @@ const QualityCard = ({quality}) => {
                     </div>
                 }
                 {quality?.course &&
-                    <div className='mt-3'>
+                    <div className=''>
                         <div className='w-full flex gap-3'>
                             <b>Courses:</b>
                             <span className='flex flex-wrap gap-2'>

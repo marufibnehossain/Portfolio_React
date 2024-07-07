@@ -18,7 +18,10 @@ const ExperienceCard = ({exp}) => {
                 <img className='md:h-[50px] sm:h-10 h-6 mt-1 rounded-[10px] sm:block hidden' src={exp.img} alt='abc' />
                 <div className='w-full flex flex-col text-left sm:gap-0 gap-1.5'>
                     <p className='md:text-lg sm:text-sm text-xs sm:font-semibold font-bold'>{exp.role}</p>
-                    <p className='md:text-sm text-xs font-medium'>{exp.company}</p>
+                    <div className='flex gap-1'>
+                        <p className='md:text-sm text-xs font-medium'>{exp.company}</p>
+                        <p className='md:text-sm text-xs font-medium'>{exp.location}</p>
+                    </div>
                     <p className='md:text-xs text-[10px] font-normal'>{exp.date}</p>
                 </div>
             </div>

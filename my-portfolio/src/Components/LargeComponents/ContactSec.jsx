@@ -17,7 +17,7 @@ const ContactSec = () => {
         </div>
         <div className='flex flex-col gap-8 md:my-16 my-12'>
           <SideNav sidehead = 'experience' sidebtn= {experience} />
-          <Link to={'https://drive.google.com/file/d/1rQRYd_myG1-z2dosCRQh_j0dGnoXJGMd/view'} target='_blank' className='font-nunito font-bold text-[#272727] underline italic text-left underline-offset-4'>Download Resume</Link>
+          <Link to={'https://drive.google.com/file/d/1dargG90UMZb1tHUHiVY---rhKQYRrZZJ/view?usp=drive_link'} target='_blank' className='font-nunito font-bold text-[#272727] underline italic text-left underline-offset-4'>Download Resume</Link>
         </div>
       </div>
     </section>
