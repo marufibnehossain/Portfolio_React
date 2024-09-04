@@ -68,7 +68,8 @@ const WebProjects = () => {
       <section className='mxs:px-7 px-4 py-5 lg:mb-10 md:mb-16 flex flex-col font-nunito'>
         <Heading class='!my-8' HeadColor= "text-[#D4D4D4]" heading="Projects" sub="Most recent works" />
         <div className='xs:pt-8 2xs:pt-3 pt-1 xs:pb-10 2xs:pb-7 pb-4'>{projectsNav.map(portfolioNav)}</div>
-        {projects.toReversed().map(portfolio)}
+        {/* {projects.toReversed().map(portfolio)} */}
+        {projects.length > 0?(projects.toReversed().map(portfolio)):(<p className='font-nunito text-[#cca354] text-lg'>No projects available at the moment.</p>)}
       </section>
 
     </>

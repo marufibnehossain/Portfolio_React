@@ -26,10 +26,12 @@ function portfolio(works) {
 }
 
 const Projects = () => {
+  const featuredProjects = projectsData.toReversed().filter(work => work.featured);
+
   return (
     <section className='mxs:px-7 px-4 py-5 lg:mt-10 lg:mb-10 md:mb-16 my-10 flex flex-col font-nunito'>
         <Heading HeadColor= "text-[#D4D4D4]" heading="Projects" sub="Most recent works" />
-        {projectsData.toReversed().map(portfolio)}
+        {featuredProjects.length > 0?(featuredProjects.map(portfolio)):(<p className='font-nunito text-[#cca354] text-lg'>No featured projects available at the moment.</p>)}
     </section>
   )
 }

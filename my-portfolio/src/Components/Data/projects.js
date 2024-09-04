@@ -1,25 +1,11 @@
-import containers from '../../assets/images/Advanced/Shipping-Containers.webp';
-import smileBanner from '../../assets/images/SmileTissue/banner.webp';
-import smileLogo from '../../assets/images/SmileTissue/smilelogo2.png';
-import salmanLogo from '../../assets/images/SalmanArefin/Sa-Logo.webp';
-import saBanner from '../../assets/images/SalmanArefin/sabanner.webp';
-import fajrLogo from '../../assets/images/FajrAdvertising/Fajr-Advertising-Logo-1.png';
-import fajrBanner from '../../assets/images/FajrAdvertising/fajrBg.webp';
-import advancedLogo from '../../assets/images/Advanced/logo-advanced.webp';
-import hakkaniLogo from '../../assets/images/Hakkani/hakkanilogo.png';
-import hakkaniBg from '../../assets/images/Hakkani/hakkaniBG.webp';
-import igpBanner from '../../assets/images/Edu-IGP/igp-cover.jpg';
-import fajrlLogo from '../../assets/images/fajr-lifestyle/Fajr-lifestyle-logo.png';
-import fajrlBanner from '../../assets/images/fajr-lifestyle/fajrl-banner.jpg';
-import atomyBanner from '../../assets/images/Atomy-BD/atomy-banner.png';
-import atomyLogo from '../../assets/images/Atomy-BD/atomy-logo.png';
+import { image } from '../../assets/images/image'
 
 
 export const projectsData = [
     {
         id: 1,
-        image: saBanner,
-        logoimg: salmanLogo,
+        image: image.saBanner,
+        logoimg: image.salmanLogo,
         altlogo: "Salman Arefin",
         role: "Web developer",
         project: "A Digital Portfolio Showcasing Multifaceted Expertise",
@@ -32,12 +18,12 @@ export const projectsData = [
         caselink: "salman-arefin",
         sitelink: "https://salmanarefin.ca/",
         category: "WordPress",
-        featured: "true"
+        featured: false
     },
     {
         id: 2,
-        image: smileBanner,
-        logoimg: smileLogo,
+        image: image.smileBanner,
+        logoimg: image.smileLogo,
         altlogo: "Smile tissue",
         role: "Web Developer",
         project: "developing a single page website for Smile tissue.",
@@ -50,12 +36,12 @@ export const projectsData = [
         caselink: "smile-tissue",
         sitelink: "https://smile.hakkanigroup.net/",
         category: "HTML-CSS",
-        featured: "true"
+        featured: false
     },
     {
         id: 3,
-        image: hakkaniBg,
-        logoimg: hakkaniLogo,
+        image: image.hakkaniBg,
+        logoimg: image.hakkaniLogo,
         altlogo: "Hakkani Group",
         role: "Web Developer",
         project: "When Hakkani group needs a website.",
@@ -68,12 +54,12 @@ export const projectsData = [
         caselink: "hakkani-group",
         sitelink: "https://hakkanigroup.net/",
         category: "WordPress",
-        featured: "false"
+        featured: false
     },
     {
         id: 4,
-        image: containers,
-        logoimg: advancedLogo,
+        image: image.containers,
+        logoimg: image.advancedLogo,
         altlogo: "advanced engineering",
         role: "Web Developer",
         project: "Transforming the Online Presence of Advanced Engineering",
@@ -86,12 +72,12 @@ export const projectsData = [
         caselink: "advanced-engineering",
         sitelink: "https://advancedengineering.com.bd/",
         category: "WordPress",
-        featured: "true"
+        featured: true
     },
     {
         id: 5,
-        image: fajrBanner,
-        logoimg: fajrLogo,
+        image: image.fajrBanner,
+        logoimg: image.fajrLogo,
         altlogo:"Fajr Advertising",
         role: "Web Developer",
         project: "Illuminating Success through Services and Projects",
@@ -104,12 +90,12 @@ export const projectsData = [
         caselink: "fajr-advertising",
         sitelink: "https://fajradvertising.com/",
         category: "WordPress",
-        featured: "false"
+        featured: false
     },
     {
         id: 6,
-        image: atomyBanner,
-        logoimg: atomyLogo,
+        image: image.atomyBanner,
+        logoimg: image.atomyLogo,
         altlogo:"Atomy-BD",
         role: "Web Developer",
         project: "An E-Commerce website for Atomy skin products.",
@@ -122,12 +108,12 @@ export const projectsData = [
         caselink: "",
         sitelink: "https://atomy-bd.com/",
         category: "WordPress",
-        featured: "true"
+        featured: true
     },
     {
         id: 7,
-        image: fajrlBanner,
-        logoimg: fajrlLogo,
+        image: image.fajrlBanner,
+        logoimg: image.fajrlLogo,
         altlogo:"Fajr Lifestyle",
         role: "Web Developer",
         project: "An E-Commerce website for elegent shirts.",
@@ -140,15 +126,15 @@ export const projectsData = [
         caselink: "",
         sitelink: "https://fajrlifestyle.com/",
         category: "WordPress",
-        featured: "true"
+        featured: true
     },
     {
         id: 8,
-        image: igpBanner,
+        image: image.igpBanner,
         logoimg: "",
         altlogo: "EduIGP",
         role: "Web developer",
-        project: "Showcasing an online edication platform and it's members.",
+        project: "Showcasing an online education platform and it's members.",
         intro: "I developed a captivating website for EduIGP. The website showcased their platform members.",
         buttonw: "No case study",
         buttonb: "Visit Website",
@@ -158,9 +144,62 @@ export const projectsData = [
         caselink: "",
         sitelink: "https://z.altijaarat.com/",
         category: "WordPress",
-        featured: "true"
+        featured: true
     },
-    
+    {
+        id: 9,
+        image: image.eelevageBanner,
+        logoimg: image.eelevageWLogo,
+        altlogo: "Eelevage",
+        role: "Web developer",
+        project: "Establishing the online presence of a web development agency.",
+        intro: "I developed a website for Eelevage with some cool animation. The website showcased their services and business capabilities.",
+        buttonw: "No case study",
+        buttonb: "Visit Website",
+        textclr: "white",
+        visiblewht: "inline-block",
+        visibleblk: "inline-block",
+        caselink: "",
+        sitelink: "https://eelevage.com",
+        category: "WordPress",
+        featured: true
+    },
+    {
+        id: 10,
+        image: image.sheplarBanner,
+        logoimg: image.sheplarLogo,
+        altlogo: "Lianne Sheplar Art Advisory",
+        role: "Web developer",
+        project: "Showcasing the Experience of Lianne Sheplar as an Art Advisory.",
+        intro: "Lianne Sheplar an Art Advisory with 12 years of experience wanted an online platform where she can share her experience. I was lucky enough to build that platform on behalf of Sleek Solutions LTD.",
+        buttonw: "No case study",
+        buttonb: "Visit Website",
+        textclr: "black",
+        visiblewht: "inline-block",
+        visibleblk: "inline-block",
+        caselink: "",
+        sitelink: "https://sheplarartadvisory.com/home/",
+        category: "WordPress",
+        featured: true,
+    },
+    {
+        id: 11,
+        image: image.perspectiveBanner,
+        logoimg: image.perspectiveLogo,
+        altlogo: "New Perspectives Psychiatric Care",
+        role: "Web developer",
+        project: "Showcasing the consultations of New Perspectives Psychiatric Care.",
+        intro: "After working in the healthcare for 15 years Claudia Adrian decided to start her own Psychiatric Care. On behalf of Sleek Solutions LTD I built a website for her clinic.",
+        buttonw: "No case study",
+        buttonb: "Visit Website",
+        textclr: "black",
+        visiblewht: "inline-block",
+        visibleblk: "inline-block",
+        caselink: "",
+        sitelink: "https://np-psychiatriccare.org/",
+        category: "WordPress",
+        featured: true,
+    },
 ]
 
 

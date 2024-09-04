@@ -1,12 +1,10 @@
-import springerLogo from '../../assets/images/Research/TSDR/springer-logo.webp';
-import tsdrBanner from '../../assets/images/Research/TSDR/tsdrs.webp';
-
+import { image } from "../../assets/images/image"
 
 export const researchData = [
     {
         id: 1,
-        image: tsdrBanner,
-        logoimg: springerLogo,
+        image: image.tsdrBanner,
+        logoimg: image.springerLogo,
         altlogo:"Rivian",
         role: "Paper Author",
         project: "Traffic Sign Detection & Recognition Using Deep Learning.",
