@@ -102,7 +102,7 @@ export const projectsData = [
         caselink: "",
         sitelink: "https://atomy-bd.com/",
         category: "WordPress",
-        featured: true
+        featured: false
     },
     {
         image: image.fajrlBanner,
@@ -119,24 +119,7 @@ export const projectsData = [
         caselink: "",
         sitelink: "https://fajrlifestyle.com/",
         category: "WordPress",
-        featured: true
-    },
-    {
-        image: image.drumBanner,
-        logoimg: image.drumLogo,
-        altlogo: "Drum Kit",
-        role: "Web developer",
-        project: "Creating an interactive drumming experience for users.",
-        intro: "I built the Drum Kit website to give users a hands-on experience of playing drums. By pressing designated keys, users can create drum sounds, making it an easy and entertaining way to explore music.",
-        buttonw: "No case study",
-        buttonb: "Visit Website",
-        textclr: "white",
-        visiblewht: "inline-block",
-        visibleblk: "inline-block",
-        caselink: "",
-        sitelink: "https://keyboard-drummer.netlify.app/",
-        category: "JavaScript",
-        featured: false,
+        featured: false
     },
     {
         image: image.simonbanner,
@@ -153,7 +136,24 @@ export const projectsData = [
         caselink: "",
         sitelink: "https://simon-gamejquery.netlify.app/",
         category: "JavaScript",
-        featured: false,
+        featured: true,
+    },
+    {
+        image: image.drumBanner,
+        logoimg: image.drumLogo,
+        altlogo: "Drum Kit",
+        role: "Web developer",
+        project: "Creating an interactive drumming experience for users.",
+        intro: "I built the Drum Kit website to give users a hands-on experience of playing drums. By pressing designated keys, users can create drum sounds, making it an easy and entertaining way to explore music.",
+        buttonw: "No case study",
+        buttonb: "Visit Website",
+        textclr: "white",
+        visiblewht: "inline-block",
+        visibleblk: "inline-block",
+        caselink: "",
+        sitelink: "https://keyboard-drummer.netlify.app/",
+        category: "JavaScript",
+        featured: true,
     },
     {
         image: image.igpBanner,
