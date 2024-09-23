@@ -1,9 +1,8 @@
-import { image } from '../../assets/images/image'
+import { image } from '../../assets/images/image';
 
 
 export const projectsData = [
     {
-        id: 1,
         image: image.saBanner,
         logoimg: image.salmanLogo,
         altlogo: "Salman Arefin",
@@ -21,7 +20,6 @@ export const projectsData = [
         featured: false
     },
     {
-        id: 2,
         image: image.smileBanner,
         logoimg: image.smileLogo,
         altlogo: "Smile tissue",
@@ -39,7 +37,6 @@ export const projectsData = [
         featured: false
     },
     {
-        id: 3,
         image: image.hakkaniBg,
         logoimg: image.hakkaniLogo,
         altlogo: "Hakkani Group",
@@ -57,7 +54,6 @@ export const projectsData = [
         featured: false
     },
     {
-        id: 4,
         image: image.containers,
         logoimg: image.advancedLogo,
         altlogo: "advanced engineering",
@@ -75,7 +71,6 @@ export const projectsData = [
         featured: true
     },
     {
-        id: 5,
         image: image.fajrBanner,
         logoimg: image.fajrLogo,
         altlogo:"Fajr Advertising",
@@ -93,7 +88,6 @@ export const projectsData = [
         featured: false
     },
     {
-        id: 6,
         image: image.atomyBanner,
         logoimg: image.atomyLogo,
         altlogo:"Atomy-BD",
@@ -111,7 +105,6 @@ export const projectsData = [
         featured: true
     },
     {
-        id: 7,
         image: image.fajrlBanner,
         logoimg: image.fajrlLogo,
         altlogo:"Fajr Lifestyle",
@@ -129,7 +122,40 @@ export const projectsData = [
         featured: true
     },
     {
-        id: 8,
+        image: image.drumBanner,
+        logoimg: image.drumLogo,
+        altlogo: "Drum Kit",
+        role: "Web developer",
+        project: "Creating an interactive drumming experience for users.",
+        intro: "I built the Drum Kit website to give users a hands-on experience of playing drums. By pressing designated keys, users can create drum sounds, making it an easy and entertaining way to explore music.",
+        buttonw: "No case study",
+        buttonb: "Visit Website",
+        textclr: "white",
+        visiblewht: "inline-block",
+        visibleblk: "inline-block",
+        caselink: "",
+        sitelink: "https://keyboard-drummer.netlify.app/",
+        category: "JavaScript",
+        featured: false,
+    },
+    {
+        image: image.simonbanner,
+        logoimg: image.simonLogo,
+        altlogo: "Simon Says",
+        role: "Web developer",
+        project: "Creating a dynamic memory challenge game.",
+        intro: "I developed the Simon Game website to provide users with an entertaining and brain-stimulating experience. Players can test and improve their memory skills by following the game's increasingly complex patterns of lights and sounds.",
+        buttonw: "No case study",
+        buttonb: "Visit Website",
+        textclr: "white",
+        visiblewht: "inline-block",
+        visibleblk: "inline-block",
+        caselink: "",
+        sitelink: "https://simon-gamejquery.netlify.app/",
+        category: "JavaScript",
+        featured: false,
+    },
+    {
         image: image.igpBanner,
         logoimg: "",
         altlogo: "EduIGP",
@@ -147,7 +173,6 @@ export const projectsData = [
         featured: true
     },
     {
-        id: 9,
         image: image.eelevageBanner,
         logoimg: image.eelevageWLogo,
         altlogo: "Eelevage",
@@ -165,7 +190,6 @@ export const projectsData = [
         featured: true
     },
     {
-        id: 10,
         image: image.sheplarBanner,
         logoimg: image.sheplarLogo,
         altlogo: "Lianne Sheplar Art Advisory",
@@ -183,7 +207,6 @@ export const projectsData = [
         featured: true,
     },
     {
-        id: 11,
         image: image.perspectiveBanner,
         logoimg: image.perspectiveLogo,
         altlogo: "New Perspectives Psychiatric Care",
@@ -200,7 +223,28 @@ export const projectsData = [
         category: "WordPress",
         featured: true,
     },
-]
+    {
+        image: image.tomatoBanner,
+        logoimg: image.tomatoLogo,
+        altlogo: "Tomato",
+        role: "Web developer",
+        project: "Building a modern food delivery platform from scratch.",
+        intro: "I developed Tomato to streamline food ordering for customers, ensuring a simple and interactive experience. Users can explore detailed food listings, check customer reviews, and find top dishes near them.",
+        buttonw: "No case study",
+        buttonb: "Visit Website",
+        textclr: "white",
+        visiblewht: "inline-block",
+        visibleblk: "inline-block",
+        caselink: "",
+        sitelink: "https://food-delivery-101w.onrender.com/",
+        category: "MERN",
+        featured: true,
+    },
+].map((item, index) => ({
+    ...item,
+    id: index + 1 // Automatically assign id based on the index
+}));
+
 
 
 export const projectsNav = [

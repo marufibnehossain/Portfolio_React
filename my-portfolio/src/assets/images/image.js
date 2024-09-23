@@ -38,6 +38,12 @@ import sheplarLogo from '../images/Sheplar-Art-advisory/output-onlinetools.png';
 import sheplarBanner from '../images/Sheplar-Art-advisory/sheplarBanner3.jpg';
 import perspectiveBanner from '../images/new perspective/perspectiveBanner.webp';
 import perspectiveLogo from '../images/new perspective/perspectiveLogo.png';
+import tomatoLogo from '../images/Food-Delivery/logo.png';
+import tomatoBanner from '../images/Food-Delivery/header_img.png';
+import drumBanner from '../images/Drum-kit/drumbanner.webp';
+import drumLogo from '../images/Drum-kit/drumlogoo.png';
+import simonLogo from '../images/Simon-Game/simonlogo.png';
+import simonbanner from '../images/Simon-Game/simonbanner.webp';
 
 
 export const image ={
@@ -80,5 +86,11 @@ export const image ={
     sheplarLogo,
     sheplarBanner,
     perspectiveBanner,
-    perspectiveLogo
+    perspectiveLogo,
+    tomatoBanner,
+    tomatoLogo,
+    drumBanner,
+    drumLogo,
+    simonLogo,
+    simonbanner
 }
