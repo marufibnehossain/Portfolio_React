@@ -44,7 +44,18 @@ import drumBanner from '../images/Drum-kit/drumbanner.webp';
 import drumLogo from '../images/Drum-kit/drumlogoo.png';
 import simonLogo from '../images/Simon-Game/simonlogo.png';
 import simonbanner from '../images/Simon-Game/simonbanner.webp';
-
+import fatslimingLogo from '../images/Fatsliming/fatsliminglogo.png';
+import fatslimingBanner from '../images/Fatsliming/fatslimingbanner.jpeg';
+import crownBanner from '../images/Crown/CrownBanner.png';
+import crownLogo from '../images/Crown/Crown-Logo.png';
+import hanzaGroupBanner from '../images/HanzaGroup/hanza-product-2-copy.png';
+import hanzaGroupLogo from '../images/HanzaGroup/hamza.png';
+import beautyEssenceBdBanner from '../images/BeautyEssence/numbuzin.webp';
+import beautyEssenceLogo from '../images/BeautyEssence/Acumen-11.webp';
+import ten2ThousandBanner from '../images/Ten2Thousand/ten2thousandbanner.jpg';
+import ten2ThousandLogo from '../images/Ten2Thousand/ten-to-thousand-logo.png';
+import arabianBorkaFashionBanner from '../images/Arabian-Borka-Fashion/Arabian-borka-banner.jpeg';
+import arabianBorkaFashionLogo from '../images/Arabian-Borka-Fashion/Arabian-borka-logo.png';
 
 export const image ={
     containers,
@@ -92,5 +103,17 @@ export const image ={
     drumBanner,
     drumLogo,
     simonLogo,
-    simonbanner
+    simonbanner,
+    fatslimingLogo,
+    fatslimingBanner,
+    crownBanner,
+    crownLogo,
+    hanzaGroupBanner,
+    hanzaGroupLogo,
+    beautyEssenceBdBanner,
+    beautyEssenceLogo,
+    ten2ThousandBanner,
+    ten2ThousandLogo,
+    arabianBorkaFashionBanner,
+    arabianBorkaFashionLogo,
 }
