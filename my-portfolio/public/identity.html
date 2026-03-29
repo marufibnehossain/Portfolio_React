@@ -59,6 +59,28 @@
       and open the link using <code>/identity.html#…</code> like invites. Check
       spam for Netlify’s email.
     </p>
+    <hr style="border-color: #333; margin: 1.5rem 0" />
+    <h2 style="font-size: 1.1rem">Reset link does nothing?</h2>
+    <p style="font-size: 0.9rem">
+      Emails often point at your <strong>home page</strong>; the React app can
+      break the flow. Use <code>/identity.html</code> and the
+      <code>recovery_token</code> (or paste below).
+    </p>
+    <p>
+      <label for="hashPaste" style="display: block; margin-bottom: 0.35rem"
+        >Paste the part after <code>#</code> from the Netlify email (or the full
+        URL):</label
+      >
+      <textarea
+        id="hashPaste"
+        rows="3"
+        style="width: 100%; box-sizing: border-box; font-family: monospace; font-size: 12px"
+        placeholder="recovery_token=xxxx OR full https://...#recovery_token=..."
+      ></textarea>
+    </p>
+    <p>
+      <button type="button" id="btn-apply-hash">Load reset / invite on this page</button>
+    </p>
     <p style="margin-top: 2rem">
       <a href="/">← Site home</a>
       &nbsp;·&nbsp;
@@ -112,7 +134,9 @@
           console.error('Netlify Identity:', err);
         });
         ni.init();
-        if (hasToken) {
+        // Only invite uses signup tab. recovery_token / confirmation are handled
+        // by the widget's hash router — opening signup here breaks password reset.
+        if (/invite_token=/.test(window.location.hash || '')) {
           ni.open('signup');
         }
 
@@ -121,6 +145,26 @@
         };
         document.getElementById('btn-recover').onclick = function () {
           ni.open('login');
+        };
+
+        document.getElementById('btn-apply-hash').onclick = function () {
+          var raw = (document.getElementById('hashPaste').value || '').trim();
+          if (!raw) return;
+          var hash = raw;
+          var hashIdx = raw.indexOf('#');
+          if (hashIdx !== -1) {
+            hash = raw.slice(hashIdx + 1);
+          }
+          if (hash.charAt(0) === '#') {
+            hash = hash.slice(1);
+          }
+          window.location.assign(
+            window.location.origin +
+              window.location.pathname +
+              window.location.search +
+              '#' +
+              hash
+          );
         };
       })();
     </script>

@@ -81,7 +81,7 @@
             hash
           );
         ni.init();
-        if (hasToken) {
+        if (/invite_token=/.test(window.location.hash || '')) {
           ni.open('signup');
         }
       })();
