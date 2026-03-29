@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Log in — Netlify Identity</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 38rem;
+        margin: 2rem auto;
+        padding: 0 1.25rem;
+        background: #181818;
+        color: #e5e5e5;
+        line-height: 1.5;
+      }
+      code {
+        font-size: 0.85em;
+        word-break: break-all;
+      }
+      button {
+        margin: 0.35rem 0.75rem 0.35rem 0;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      a {
+        color: #cca354;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Netlify Identity</h1>
+    <p>
+      Use this page if invite / password links open your normal site and no login
+      popup appears (React loads faster than the widget on the homepage).
+    </p>
+    <p>
+      <strong>Invite link fix:</strong> copy the link from your email, then change
+      only the path so it starts with <code>/identity.html</code> and
+      <strong>keep the whole <code>#…</code> at the end</strong>.<br />
+      Example:
+      <code>https://marufibnehossain.com/identity.html#invite_token=…</code>
+    </p>
+    <p>
+      <button type="button" id="btn-login">Log in</button>
+      <button type="button" id="btn-recover">Forgot password / reset by email</button>
+    </p>
+    <p style="margin-top: 2rem">
+      <a href="/">← Site home</a>
+      &nbsp;·&nbsp;
+      <a href="/admin/">Decap CMS →</a>
+    </p>
+
+    <script>
+      (function () {
+        var h = window.location.hash;
+        if (
+          h &&
+          /invite_token|confirmation_token|recovery_token|access_token/.test(h)
+        ) {
+          try {
+            sessionStorage.setItem('__netlify_identity_hash', h);
+          } catch (e) {}
+        }
+      })();
+    </script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      (function () {
+        if (!window.netlifyIdentity) return;
+        var ni = window.netlifyIdentity;
+        var saved = null;
+        try {
+          saved = sessionStorage.getItem('__netlify_identity_hash');
+        } catch (e) {}
+        var hash = window.location.hash || '';
+        var hasToken =
+          /invite_token|confirmation_token|recovery_token|access_token/.test(
+            hash
+          );
+        if (saved && !hasToken) {
+          history.replaceState(
+            null,
+            '',
+            window.location.pathname + window.location.search + saved
+          );
+          hash = window.location.hash || '';
+        }
+        try {
+          if (saved) sessionStorage.removeItem('__netlify_identity_hash');
+        } catch (e) {}
+
+        hasToken =
+          /invite_token|confirmation_token|recovery_token|access_token/.test(
+            hash
+          );
+        ni.init();
+        if (hasToken) {
+          ni.open('signup');
+        }
+
+        document.getElementById('btn-login').onclick = function () {
+          ni.open('login');
+        };
+        document.getElementById('btn-recover').onclick = function () {
+          ni.open('recover');
+        };
+      })();
+    </script>
+  </body>
+</html>
