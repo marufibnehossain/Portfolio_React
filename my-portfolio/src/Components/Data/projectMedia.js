@@ -1,6 +1,6 @@
 import { image } from '../../assets/images/image';
 
-/** Maps CMS string keys to bundled assets. Use plain paths (/uploads/… or https://…) for Decap uploads. */
+/** Maps JSON string keys to bundled assets. Use /uploads/… or https://… for images in public/uploads or external URLs. */
 const PROJECT_IMAGE_MAP = {
   saBanner: image.saBanner,
   smileBanner: image.smileBanner,

@@ -35,57 +35,6 @@
     <title>Maruf Ibne Hossain</title>
   </head>
   <body>
-    <!-- Capture invite hash before React or anything else can touch the URL -->
-    <script>
-      (function () {
-        var h = window.location.hash;
-        if (
-          h &&
-          /invite_token|confirmation_token|recovery_token|access_token/.test(h)
-        ) {
-          try {
-            sessionStorage.setItem('__netlify_identity_hash', h);
-          } catch (e) {}
-        }
-      })();
-    </script>
-    <!-- Blocking load so init() runs before the deferred React bundle (hash / modal race) -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script>
-      (function () {
-        if (!window.netlifyIdentity) return;
-        var ni = window.netlifyIdentity;
-        var saved = null;
-        try {
-          saved = sessionStorage.getItem('__netlify_identity_hash');
-        } catch (e) {}
-        var hash = window.location.hash || '';
-        var hasToken =
-          /invite_token|confirmation_token|recovery_token|access_token/.test(
-            hash
-          );
-        if (saved && !hasToken) {
-          history.replaceState(
-            null,
-            '',
-            window.location.pathname + window.location.search + saved
-          );
-          hash = window.location.hash || '';
-        }
-        try {
-          if (saved) sessionStorage.removeItem('__netlify_identity_hash');
-        } catch (e) {}
-
-        hasToken =
-          /invite_token|confirmation_token|recovery_token|access_token/.test(
-            hash
-          );
-        ni.init();
-        if (/invite_token=/.test(window.location.hash || '')) {
-          ni.open('signup');
-        }
-      })();
-    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
