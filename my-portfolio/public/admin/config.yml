@@ -5,7 +5,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: public/uploads
+# Paths are from the Git repo root. This site lives in my-portfolio/ (not repo root).
+media_folder: my-portfolio/public/uploads
 public_folder: /uploads
 
 collections:
@@ -14,7 +15,7 @@ collections:
     files:
       - label: Projects list & filters
         name: website_projects
-        file: src/data/projects-data.json
+        file: my-portfolio/src/data/projects-data.json
         format: json
         fields:
           - label: Category filter tabs
