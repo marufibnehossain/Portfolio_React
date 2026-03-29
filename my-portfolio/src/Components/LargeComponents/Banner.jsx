@@ -31,7 +31,7 @@ const Banner = () => {
           <Link to={'https://www.facebook.com/marufibnehossain'} target={'_blank'} aria-label="Visit my Facebook profile"><FaFacebook className='md:hover:text-[#cca354] transition-all duration-300' /></Link>
         </div>
       </div>
-      <div className='lg:w-[520px] xl:h-[750px] lg:h-[720px] md:w-[450px] sm:w-[500px] xs:w-[520px] xs:h-[777px] h-full -z-10 absolute lg:bottom-4 lg:-right-10 right-0 bottom-0 overflow-hidden border border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.5)]'>
+      <div className='lg:w-[520px] 2xl:h-[750px] xl:h-[700px] lg:h-[680px] md:w-[450px] sm:w-[500px] xs:w-[520px] xs:h-[680px] h-[680px] -z-10 absolute lg:-right-10 right-0 xl:bottom-6 lg:bottom-0 xs:bottom-20 bottom-8 overflow-hidden border border-[#cca354] shadow-[0px_0px_15px_rgba(204,163,84,0.5)]'>
         <img className='object-cover object-center h-full w-full' src={profile} alt="profile-img" />
       </div>
     </div>
