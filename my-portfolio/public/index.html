@@ -35,39 +35,59 @@
     <title>Maruf Ibne Hossain</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!-- Netlify Identity: invite links use #invite_token=… — must run after widget loads -->
+    <!-- Capture invite hash before React or anything else can touch the URL -->
     <script>
       (function () {
-        function startIdentity() {
-          if (!window.netlifyIdentity) return;
-          var ni = window.netlifyIdentity;
-          var hash = window.location.hash || '';
-          var hasInvite =
-            /invite_token=/.test(hash) ||
-            /confirmation_token=/.test(hash) ||
-            /recovery_token=/.test(hash) ||
-            /access_token=/.test(hash);
-
-          ni.init();
-
-          if (hasInvite) {
-            ni.open('signup');
-          }
+        var h = window.location.hash;
+        if (
+          h &&
+          /invite_token|confirmation_token|recovery_token|access_token/.test(h)
+        ) {
+          try {
+            sessionStorage.setItem('__netlify_identity_hash', h);
+          } catch (e) {}
         }
-        var s = document.createElement('script');
-        s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
-        s.async = false;
-        s.onload = function () {
-          startIdentity();
-        };
-        s.onerror = function () {
-          console.error('Netlify Identity widget failed to load');
-        };
-        document.body.appendChild(s);
       })();
     </script>
+    <!-- Blocking load so init() runs before the deferred React bundle (hash / modal race) -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      (function () {
+        if (!window.netlifyIdentity) return;
+        var ni = window.netlifyIdentity;
+        var saved = null;
+        try {
+          saved = sessionStorage.getItem('__netlify_identity_hash');
+        } catch (e) {}
+        var hash = window.location.hash || '';
+        var hasToken =
+          /invite_token|confirmation_token|recovery_token|access_token/.test(
+            hash
+          );
+        if (saved && !hasToken) {
+          history.replaceState(
+            null,
+            '',
+            window.location.pathname + window.location.search + saved
+          );
+          hash = window.location.hash || '';
+        }
+        try {
+          if (saved) sessionStorage.removeItem('__netlify_identity_hash');
+        } catch (e) {}
+
+        hasToken =
+          /invite_token|confirmation_token|recovery_token|access_token/.test(
+            hash
+          );
+        ni.init();
+        if (hasToken) {
+          ni.open('signup');
+        }
+      })();
+    </script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

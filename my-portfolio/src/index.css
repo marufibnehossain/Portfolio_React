@@ -86,3 +86,10 @@ code {
     animation: drop 1s linear;
   }
 }
+
+/* Netlify Identity invite / login modal above fixed nav (z-40) and app UI */
+iframe[src*='netlify'],
+div[class*='netlify-identity'],
+.netlify-identity-widget {
+  z-index: 2147483646 !important;
+}
