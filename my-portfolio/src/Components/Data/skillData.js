@@ -2,8 +2,10 @@ import { HiOutlineBadgeCheck } from 'react-icons/hi';
 import { ImHtmlFive } from 'react-icons/im';
 import { RiReactjsLine } from 'react-icons/ri';
 import { TbBrandNodejs, TbApi } from 'react-icons/tb';
-import { SiCss3, SiBootstrap, SiTailwindcss, SiJavascript, SiJquery, SiGithub, SiExpress, SiElementor, SiWoocommerce } from 'react-icons/si';
-import { FaWordpress } from "react-icons/fa";
+import { SiCss3, SiBootstrap, SiTailwindcss, SiJavascript, SiJquery, SiGithub, SiExpress, SiElementor, SiWoocommerce, SiPostgresql, SiTensorflow, SiPandas, SiNumpy, SiPython, SiScikitlearn } from 'react-icons/si';
+import { FaWordpress, FaGithub, FaNpm } from "react-icons/fa";
+import { BiLogoMongodb } from "react-icons/bi";
+import { AiOutlineLineChart } from "react-icons/ai";
 
 const skillData = [
     {
@@ -88,9 +90,33 @@ const skillData = [
                 skill: "APIs",
                 level: "Basic"
             },
+            {
+                id: 5,
+                icon: <BiLogoMongodb />,
+                skill: "MongoDB",
+                level: "Intermediate"
+            },
+            {
+                id: 6,
+                icon: <SiPostgresql />,
+                skill: "PostgreSQL",
+                level: "Intermediate"
+            },
+            {
+                id: 7,
+                icon: <FaGithub />,
+                skill: "GitHub",
+                level: "Intermediate"
+            },
+            {
+                id: 8,
+                icon: <FaNpm />,
+                skill: "NPM",
+                level: "Intermediate"
+            },
         ]
     },{
-        id:2,
+        id:3,
         title: "WordPress Development",
         SkillNames:[
             {
@@ -102,19 +128,19 @@ const skillData = [
             {
                 id: 2,
                 icon: <SiElementor />,
-                skill: "Elementor",
+                skill: "Elementor Pro",
                 level: "Advanced"
             },
             {
                 id: 3,
                 icon: <SiWoocommerce />,
-                skill: "Woocommerce",
+                skill: "WooCommerce",
                 level: "Advanced"
             },
             {
                 id: 4,
                 icon: <HiOutlineBadgeCheck />,
-                skill: "Buddyx",
+                skill: "LMS",
                 level: "Intermediate"
             },
             {
@@ -122,6 +148,77 @@ const skillData = [
                 icon: <HiOutlineBadgeCheck />,
                 skill: "Theme Customization",
                 level: "Advanced"
+            },
+            {
+                id: 6,
+                icon: <HiOutlineBadgeCheck />,
+                skill: "ACF Pro",
+                level: "Advanced"
+            },
+            {
+                id: 7,
+                icon: <HiOutlineBadgeCheck />,
+                skill: "Custom Post Types",
+                level: "Advanced"
+            },
+            {
+                id: 8,
+                icon: <HiOutlineBadgeCheck />,
+                skill: "Payment Integration",
+                level: "Advanced"
+            },
+        ]
+    },{
+        id:4,
+        title: "Data Science",
+        SkillNames:[
+            {
+                id: 1,
+                icon: <SiPython />,
+                skill: "Python",
+                level: "Advanced"
+            },
+            {
+                id: 2,
+                icon: <HiOutlineBadgeCheck />,
+                skill: "DSA",
+                level: "Intermediate"
+            },
+            {
+                id: 3,
+                icon: <HiOutlineBadgeCheck />,
+                skill: "OOP",
+                level: "Intermediate"
+            },
+            {
+                id: 4,
+                icon: <SiTensorflow />,
+                skill: "TensorFlow",
+                level: "Intermediate"
+            },
+            {
+                id: 5,
+                icon: <SiPandas />,
+                skill: "Pandas",
+                level: "Intermediate"
+            },
+            {
+                id: 6,
+                icon: <SiNumpy />,
+                skill: "Numpy",
+                level: "Intermediate"
+            },
+            {
+                id: 7,
+                icon: <AiOutlineLineChart />,
+                skill: "Matplotlib",
+                level: "Intermediate"
+            },
+            {
+                id: 8,
+                icon: <SiScikitlearn />,
+                skill: "Scikit-learn",
+                level: "Intermediate"
             },
         ]
     }

@@ -8,29 +8,9 @@ import sleek_logo from '../../assets/images/qualifications/sleek.webp';
 import hsc_certificate from '../../assets/images/qualifications/hsc_certificate.jpg';
 import ssc_certificate from '../../assets/images/qualifications/ssc_certificate.jpg';
 import biscj_logo from '../../assets/images/qualifications/biscj_logo.png';
+import arvion_logo from '../../assets/images/qualifications/arvion_logo.webp';
 
 export const experiences = [
-    // {
-    //   id: 0,
-    //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    //   role: "Junior Developer",
-    //   company: "Al Tijaarat.",
-    //   date: "Aug 2023 - Present",
-    //   desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-    //   skills: [
-    //     "Docker",
-    //     "Terraform",
-    //     "AWS",
-    //     "EC2",
-    //     "Portainer",
-    //     "Nginx",
-    //     "JavaScript",
-    //     "TypeScript",
-    //     "Node Js",
-    //     " Next Js",
-    //   ],
-    //   doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-    // },
     {
         id: 1,
         img: kpr_logo,
@@ -80,7 +60,7 @@ export const experiences = [
         role: "Web Developer (Remote).",
         company: "Sleek Solutions LTD.",
         location: "(Arizona, USA)",
-        date: "Apr 2024 - Current",
+        date: "Apr 2024 - July 2024",
         desc: "Built and maintained websites using Elementor and WooCommerce. Led projects, ensuring timely delivery and high-quality outcomes. Worked remotely via Discord; managed tasks using Basecamp. Collaborated with teams to gather requirements and define scopes.",
         skills: [
           "WordPress",
@@ -89,6 +69,24 @@ export const experiences = [
           "Basecamp",
           ],
         doc: "",
+      },
+      {
+        id: 4,
+        img: arvion_logo,
+        role: "Web Developer",
+        company: "Arvion Studio.",
+        date: "May 2025 - Current",
+        desc: "Build and maintain WordPress & WooCommerce and service-based websites, including VibeVouch, a coupon-selling platform. Customize themes, optimize performance, and collaborate remotely via Discord.",
+        skills: [
+          "WordPress",
+          "Elementor Pro",
+          "Woocommerce",
+          "ACF Pro",
+          "payment integration",
+          "Theme Customization",
+          "Next.js",
+          ],
+        doc: '',
       },
 ]
 
