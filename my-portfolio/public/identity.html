@@ -27,6 +27,7 @@
       a {
         color: #cca354;
       }
+      #netlify-identity-widget,
       iframe[src*='netlify'],
       div[class*='netlify-identity'] {
         z-index: 2147483646 !important;
@@ -48,7 +49,15 @@
     </p>
     <p>
       <button type="button" id="btn-login">Log in</button>
-      <button type="button" id="btn-recover">Forgot password / reset by email</button>
+      <button type="button" id="btn-recover">Forgot password</button>
+    </p>
+    <p style="font-size: 0.9rem; opacity: 0.9">
+      <strong>Forgot password:</strong> click the button above, then in the popup
+      use the <em>Forgot password</em> / <em>Recover</em> link (the widget does
+      not support opening recovery directly). Or in Netlify go to
+      <strong>Identity → Users → your user → Send reset password email</strong>
+      and open the link using <code>/identity.html#…</code> like invites. Check
+      spam for Netlify’s email.
     </p>
     <p style="margin-top: 2rem">
       <a href="/">← Site home</a>
@@ -99,6 +108,9 @@
           /invite_token|confirmation_token|recovery_token|access_token/.test(
             hash
           );
+        ni.on('error', function (err) {
+          console.error('Netlify Identity:', err);
+        });
         ni.init();
         if (hasToken) {
           ni.open('signup');
@@ -108,7 +120,7 @@
           ni.open('login');
         };
         document.getElementById('btn-recover').onclick = function () {
-          ni.open('recover');
+          ni.open('login');
         };
       })();
     </script>
