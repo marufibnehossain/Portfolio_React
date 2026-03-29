@@ -81,6 +81,7 @@
     <p>
       <button type="button" id="btn-apply-hash">Load reset / invite on this page</button>
     </p>
+    <p id="identityPasteStatus" style="font-size: 0.9rem; color: #fca5a5"></p>
     <p style="margin-top: 2rem">
       <a href="/">← Site home</a>
       &nbsp;·&nbsp;
@@ -101,9 +102,76 @@
       })();
     </script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- Paste + reload: same-page # changes do not re-run the widget; sessionStorage + reload uses the restore path below -->
     <script>
       (function () {
-        if (!window.netlifyIdentity) return;
+        function parseFragment(raw) {
+          raw = (raw || '').trim();
+          if (!raw) return '';
+          var hash = raw;
+          var hashIdx = raw.indexOf('#');
+          if (hashIdx !== -1) {
+            hash = raw.slice(hashIdx + 1);
+          }
+          if (hash.charAt(0) === '#') {
+            hash = hash.slice(1);
+          }
+          return hash.trim();
+        }
+        var statusEl = document.getElementById('identityPasteStatus');
+        document.getElementById('btn-apply-hash').onclick = function () {
+          var fragment = parseFragment(
+            document.getElementById('hashPaste').value
+          );
+          if (!fragment) {
+            if (statusEl) {
+              statusEl.textContent =
+                'Paste the text from your email first (the part after # or the full link).';
+            } else {
+              alert('Paste the recovery or invite link first.');
+            }
+            return;
+          }
+          if (
+            !/invite_token|confirmation_token|recovery_token|access_token/.test(
+              fragment
+            )
+          ) {
+            if (statusEl) {
+              statusEl.textContent =
+                'That text does not look like a Netlify token (expected recovery_token, invite_token, etc.).';
+            } else {
+              alert('No invite/recovery token found in what you pasted.');
+            }
+            return;
+          }
+          if (statusEl) statusEl.textContent = 'Reloading…';
+          try {
+            sessionStorage.setItem(
+              '__netlify_identity_hash',
+              '#' + fragment
+            );
+          } catch (e) {
+            if (statusEl) {
+              statusEl.textContent =
+                'Could not save token (private browsing?). Allow storage or paste the full URL into the address bar instead.';
+            }
+            return;
+          }
+          window.location.reload();
+        };
+      })();
+    </script>
+    <script>
+      (function () {
+        if (!window.netlifyIdentity) {
+          var s = document.getElementById('identityPasteStatus');
+          if (s && !s.textContent) {
+            s.textContent =
+              'Netlify Identity script did not load (network or blocker). Buttons above may not work; try another browser or disable extensions.';
+          }
+          return;
+        }
         var ni = window.netlifyIdentity;
         var saved = null;
         try {
@@ -133,11 +201,21 @@
         ni.on('error', function (err) {
           console.error('Netlify Identity:', err);
         });
-        ni.init();
+        try {
+          ni.init();
+        } catch (e) {
+          console.error(e);
+          var se = document.getElementById('identityPasteStatus');
+          if (se) se.textContent = 'Identity failed to start: ' + (e.message || e);
+        }
         // Only invite uses signup tab. recovery_token / confirmation are handled
         // by the widget's hash router — opening signup here breaks password reset.
         if (/invite_token=/.test(window.location.hash || '')) {
-          ni.open('signup');
+          try {
+            ni.open('signup');
+          } catch (e2) {
+            console.error(e2);
+          }
         }
 
         document.getElementById('btn-login').onclick = function () {
@@ -145,26 +223,6 @@
         };
         document.getElementById('btn-recover').onclick = function () {
           ni.open('login');
-        };
-
-        document.getElementById('btn-apply-hash').onclick = function () {
-          var raw = (document.getElementById('hashPaste').value || '').trim();
-          if (!raw) return;
-          var hash = raw;
-          var hashIdx = raw.indexOf('#');
-          if (hashIdx !== -1) {
-            hash = raw.slice(hashIdx + 1);
-          }
-          if (hash.charAt(0) === '#') {
-            hash = hash.slice(1);
-          }
-          window.location.assign(
-            window.location.origin +
-              window.location.pathname +
-              window.location.search +
-              '#' +
-              hash
-          );
         };
       })();
     </script>
