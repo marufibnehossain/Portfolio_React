@@ -37,12 +37,36 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- Netlify Identity: reads #invite_token / #confirmation_token from invite & recovery emails -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- Netlify Identity: invite links use #invite_token=… — must run after widget loads -->
     <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.init();
-      }
+      (function () {
+        function startIdentity() {
+          if (!window.netlifyIdentity) return;
+          var ni = window.netlifyIdentity;
+          var hash = window.location.hash || '';
+          var hasInvite =
+            /invite_token=/.test(hash) ||
+            /confirmation_token=/.test(hash) ||
+            /recovery_token=/.test(hash) ||
+            /access_token=/.test(hash);
+
+          ni.init();
+
+          if (hasInvite) {
+            ni.open('signup');
+          }
+        }
+        var s = document.createElement('script');
+        s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
+        s.async = false;
+        s.onload = function () {
+          startIdentity();
+        };
+        s.onerror = function () {
+          console.error('Netlify Identity widget failed to load');
+        };
+        document.body.appendChild(s);
+      })();
     </script>
     <!--
       This HTML file is a template.
