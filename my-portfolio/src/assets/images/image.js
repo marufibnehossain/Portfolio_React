@@ -56,6 +56,9 @@ import ten2ThousandBanner from '../images/Ten2Thousand/ten2thousandbanner.jpg';
 import ten2ThousandLogo from '../images/Ten2Thousand/ten-to-thousand-logo.png';
 import arabianBorkaFashionBanner from '../images/Arabian-Borka-Fashion/Arabian-borka-banner.jpeg';
 import arabianBorkaFashionLogo from '../images/Arabian-Borka-Fashion/Arabian-borka-logo.png';
+import offyhubBanner from '../images/OffyHub/offyhub-banner.webp';
+import offyhubLogo from '../images/OffyHub/offyhub-logo.webp';
+
 
 export const image ={
     containers,
@@ -116,4 +119,6 @@ export const image ={
     ten2ThousandLogo,
     arabianBorkaFashionBanner,
     arabianBorkaFashionLogo,
+    offyhubBanner,
+    offyhubLogo,
 }
