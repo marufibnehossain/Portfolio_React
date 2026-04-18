@@ -65,7 +65,7 @@ const WebProjects = () => {
         text="I craft and enhance digital experiences through code, creativity, and innovation. I have a passion for refining the smallest details and transforming significant challenges into extraordinary web solutions."
       />
       
-      <section className='mxs:px-7 px-4 py-5 lg:mb-10 md:mb-16 flex flex-col font-nunito'>
+      <section className='lg:max-w-[1400px] mx-auto px-7 py-5 lg:mb-10 md:mb-16 flex flex-col font-nunito'>
         <Heading class='!my-8' HeadColor= "text-[#D4D4D4]" heading="Projects" sub="Most recent works" />
         <div className='xs:pt-8 2xs:pt-3 pt-1 xs:pb-10 2xs:pb-7 pb-4'>{projectsNav.map(portfolioNav)}</div>
         {/* {projects.toReversed().map(portfolio)} */}

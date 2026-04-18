@@ -19,7 +19,7 @@ const Banner = () => {
     };
   }, []);
   return (
-    <div className='lg:w-[1000px] container mx-auto md:px-0 px-5 lg:h-screen sm:h-[900px] h-screen flex items-center relative'>
+    <div className='lg:max-w-[1000px] container mx-auto md:px-0 px-5 lg:h-screen sm:h-[900px] h-screen flex items-center relative'>
       <div className='lg:w-9/12 md:w-10/12 text-white text-left z-20 absolute mt-24 xs:mx-0 mx-3'>
         <h1 className='sm:text-[40px] 2xs:text-[24px] text-[20px] tracking-wider font-archivo font-extrabold'>Maruf Ibne Hossain is a Web Developer who loves to craft a good Website.</h1>
         <img className='pt-8 w-16 h-full' src={horizontalLine} alt="" />

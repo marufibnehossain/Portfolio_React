@@ -58,6 +58,8 @@ import arabianBorkaFashionBanner from '../images/Arabian-Borka-Fashion/Arabian-b
 import arabianBorkaFashionLogo from '../images/Arabian-Borka-Fashion/Arabian-borka-logo.png';
 import offyhubBanner from '../images/OffyHub/offyhub-banner.webp';
 import offyhubLogo from '../images/OffyHub/offyhub-logo.webp';
+import designlootsLogo from '../images/DesignLoots/designloots-logo.webp';
+import designlootsBanner from '../images/DesignLoots/designloots-banner.webp';
 
 
 export const image ={
@@ -121,4 +123,6 @@ export const image ={
     arabianBorkaFashionLogo,
     offyhubBanner,
     offyhubLogo,
+    designlootsLogo,
+    designlootsBanner,
 }
