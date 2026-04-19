@@ -60,6 +60,10 @@ import offyhubBanner from '../images/OffyHub/offyhub-banner.webp';
 import offyhubLogo from '../images/OffyHub/offyhub-logo.webp';
 import designlootsLogo from '../images/DesignLoots/designloots-logo.webp';
 import designlootsBanner from '../images/DesignLoots/designloots-banner.webp';
+import primeInkLogo from '../images/Prime-Ink-Studio/logo-premeink.png';
+import primeInkBanner from '../images/Prime-Ink-Studio/prime-ink-banner.webp';
+import upskillLogo from '../images/Upskill-Bridge/upskill-logo.png';
+import upskillBanner from '../images/Upskill-Bridge/upskill-banner.webp';
 
 
 export const image ={
@@ -125,4 +129,8 @@ export const image ={
     offyhubLogo,
     designlootsLogo,
     designlootsBanner,
+    primeInkLogo,
+    primeInkBanner,
+    upskillBanner,
+    upskillLogo
 }

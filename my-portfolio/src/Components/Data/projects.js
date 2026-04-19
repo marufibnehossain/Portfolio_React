@@ -375,7 +375,43 @@ export const projectsData = [
         "sitelink": "https://designloots.com/",
         "category": "WordPress",
         "featured": false
-    }
+    },
+    {
+        "image": image.primeInkBanner,
+        "logoimg": image.primeInkLogo,
+        "altlogo": "Prime Ink Studio",
+        "role": "Web Developer",
+        "project": "Developing an Content writing Website for Prime Ink Studio.",
+        "intro": "I developed the Prime Ink Studio website to provide a seamless online shopping experience, featuring a diverse range of products and services.",
+        "buttonw": "No case study",
+        "buttonb": "Visit Website",
+        "textclr": "black",
+        "visiblewht": "inline-block",
+        "visibleblk": "inline-block",
+        "caselink": "",
+        "sitelink": "https://primeinkstudio.com/",
+        "category": "WordPress",
+        "featured": true
+    },
+    {
+        "image": image.upskillBanner,
+        "logoimg": image.upskillLogo,
+        "altlogo": "Upskill Bridge",
+        "role": "Web Developer",
+        "project": "Developing an course selling Website for Upskill Bridge.",
+        "intro": "I developed the Upskill Bridge website to provide a seamless online shopping experience, featuring a diverse range of products and services.",
+        "buttonw": "No case study",
+        "buttonb": "Visit Website",
+        "textclr": "black",
+        "visiblewht": "inline-block",
+        "visibleblk": "inline-block",
+        "caselink": "",
+        "sitelink": "https://upskillbridge.net/",
+        "category": "WordPress",
+        "featured": false
+    },
+    
+    
      
 ].map((item, index) => ({
     ...item,
