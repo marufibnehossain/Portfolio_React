@@ -410,6 +410,23 @@ export const projectsData = [
         "category": "WordPress",
         "featured": false
     },
+    {
+        "image": image.herglowboxBanner,
+        "logoimg": image.herglowboxLogo,
+        "altlogo": "Her Glow Box",
+        "role": "Web Developer",
+        "project": "Developing an beauty products selling Website for Her Glow Box.",
+        "intro": "I developed the Her Glow Box website to provide a seamless online shopping experience, featuring a diverse range of products and services.",
+        "buttonw": "No case study",
+        "buttonb": "Visit Website",
+        "textclr": "white",
+        "visiblewht": "inline-block",
+        "visibleblk": "inline-block",
+        "caselink": "",
+        "sitelink": "https://herglowbox.com/",
+        "category": "WordPress",
+        "featured": true
+    },
     
     
      

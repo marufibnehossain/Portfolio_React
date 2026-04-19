@@ -64,6 +64,8 @@ import primeInkLogo from '../images/Prime-Ink-Studio/logo-premeink.png';
 import primeInkBanner from '../images/Prime-Ink-Studio/prime-ink-banner.webp';
 import upskillLogo from '../images/Upskill-Bridge/upskill-logo.png';
 import upskillBanner from '../images/Upskill-Bridge/upskill-banner.webp';
+import herglowboxBanner from '../images/Her-Glow-Box/herglowbox-banner.webp';
+import herglowboxLogo from '../images/Her-Glow-Box/herglowbox-logo.webp';
 
 
 export const image ={
@@ -132,5 +134,7 @@ export const image ={
     primeInkLogo,
     primeInkBanner,
     upskillBanner,
-    upskillLogo
+    upskillLogo,
+    herglowboxBanner,
+    herglowboxLogo
 }
