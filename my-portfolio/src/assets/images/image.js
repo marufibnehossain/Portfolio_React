@@ -66,6 +66,40 @@ import upskillLogo from '../images/Upskill-Bridge/upskill-logo.png';
 import upskillBanner from '../images/Upskill-Bridge/upskill-banner.webp';
 import herglowboxBanner from '../images/Her-Glow-Box/herglowbox-banner.webp';
 import herglowboxLogo from '../images/Her-Glow-Box/herglowbox-logo.webp';
+import skillcraftersLogo from '../images/Skill-Crafters/skillcrafters-logo.png';
+import skillcraftersBanner from '../images/Skill-Crafters/skillcrafters-banner.webp';
+import vaultfootballLogo from '../images/Vault-Football/vaultfootball-logo.png';
+import vaultfootballBanner from '../images/Vault-Football/vaultfootball-banner.webp';
+import hypercoolLogo from '../images/Hypercool/hypercool-logo.png';
+import hypercoolBanner from '../images/Hypercool/hypercool-banner.webp';
+import dartstationLogo from '../images/Dart-Station/dartstation-logo.png';
+import dartstationBanner from '../images/Dart-Station/dartstation-banner.webp';
+import shuttleupLogo from '../images/Shuttleup/shuttleup-logo.png';
+import shuttleupBanner from '../images/Shuttleup/shuttleup-banner.webp';
+import nerdcollectibleLogo from '../images/Nerd-Collectible/nerdcollectible-logo.png';
+import nerdcollectibleBanner from '../images/Nerd-Collectible/nerdcollectible-banner.webp';
+import fmasoftwareLogo from '../images/FMA-Software/logo-fma.png';
+import fmasoftwareBanner from '../images/FMA-Software/fmasoftware-banner.webp';
+import vibevouchLogo from '../images/Vibe-Vouch/vibevouch-logo.png';
+import vibevouchBanner from '../images/Vibe-Vouch/vibevouch-banner.webp';
+import prestigeputtsLogo from '../images/Prestige-Putts/prestigeputts-logo.png';
+import prestigeputtsBanner from '../images/Prestige-Putts/prestigeputts-banner.webp';
+import fxcoachLogo from '../images/FX-Coach/fxcoach-logo.png';
+import fxcoachBanner from '../images/FX-Coach/fxcoach-banner.webp';
+import motogearLogo from '../images/Moto-Gear/motogear-logo.png';
+import motogearBanner from '../images/Moto-Gear/motogear-banner.webp';
+import physiocareLogo from '../images/Physiocare/physiocare-logo.png';
+import physiocareBanner from '../images/Physiocare/physiocare-banner.webp';
+import mypetspotLogo from '../images/My-Pet-Spot/mypetspot-logo.png';
+import mypetspotBanner from '../images/My-Pet-Spot/mypetspot-banner.webp';
+import artimodLogo from '../images/Artimod/artimod-logo.png';
+import artimodBanner from '../images/Artimod/artimod-banner.webp';
+import campersLogo from '../images/Campers-Store/campers-logo.webp';
+import campersBanner from '../images/Campers-Store/campersstore-banner.webp';
+import craftkitLogo from '../images/Craftkit/craftkit-logo.png';
+import craftkitBanner from '../images/Craftkit/craftkit-banner.webp';
+import barbellworldLogo from '../images/Barbell-Worlds/Barell-Logo.webp';
+import barbellworldBanner from '../images/Barbell-Worlds/barbell-banner.webp';
 
 
 export const image ={
@@ -136,5 +170,39 @@ export const image ={
     upskillBanner,
     upskillLogo,
     herglowboxBanner,
-    herglowboxLogo
+    herglowboxLogo,
+    skillcraftersLogo,
+    skillcraftersBanner,
+    vaultfootballLogo,
+    vaultfootballBanner,
+    hypercoolLogo,
+    hypercoolBanner,
+    dartstationLogo,
+    dartstationBanner,
+    shuttleupLogo,
+    shuttleupBanner,
+    nerdcollectibleLogo,
+    nerdcollectibleBanner,
+    fmasoftwareLogo,
+    fmasoftwareBanner,
+    vibevouchLogo,
+    vibevouchBanner,
+    prestigeputtsLogo,
+    prestigeputtsBanner,
+    fxcoachLogo,
+    fxcoachBanner,
+    motogearLogo,
+    motogearBanner,
+    physiocareLogo,
+    physiocareBanner,
+    mypetspotLogo,
+    mypetspotBanner,
+    artimodLogo,
+    artimodBanner,
+    campersLogo,
+    campersBanner,
+    craftkitLogo,
+    craftkitBanner,
+    barbellworldLogo,
+    barbellworldBanner,
 }
